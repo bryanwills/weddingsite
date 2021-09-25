@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>Hello from V2 - test put countdown timer here with photo of us in high res for placeholder</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
