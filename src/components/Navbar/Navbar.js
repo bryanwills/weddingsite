@@ -1,14 +1,58 @@
 import React from "react";
+import {
+  Nav,
+  NavLogo,
+  NavLink,
+  Bars,
+  NavMenu,
+  NavBtn,
+  NavBtnLink,
+} from "./NavbarElements";
 
-export function Navbar(props) {
+// export function Navbar(props) {
+//   return (
+//     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+//       <div class="container">
+//         {/* <a class="navbar-brand" href="#">
+//           La Boda de Maria & Rob
+//         </a> */}
+//         <div className="language-select">
+//           english flag / spanish flag
+//           <select
+//             className="custom-select"
+//             value={props.language}
+//             onChange={e => props.handleSetLanguage(e.target.value)}
+//           >
+//             <option value="English">English</option>
+//             <option value="Spanish">Spanish</option>
+//           </select>
+//         </div>
+//       </div>
+//     </nav>
+//   );
+// }
+
+const Navbar = (props) => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        {/* <a class="navbar-brand" href="#">
-          La Boda de Maria & Rob
-        </a> */}
-        <div className="language-select">
-          english flag / spanish flag
+      <>
+         <Nav>
+          <NavLogo to="/">
+              Logo
+          </NavLogo>
+          <Bars />
+
+          <NavMenu>
+              <NavLink to="/" activeStyle>
+                  Home
+              </NavLink>
+              <NavLink to="/about" activeStyle>
+                  About Us
+              </NavLink>
+              <NavLink to="/location" activeStyle>
+                  Location
+              </NavLink>
+          </NavMenu> 
+          <div className="language-select">
           <select
             className="custom-select"
             value={props.language}
@@ -18,9 +62,11 @@ export function Navbar(props) {
             <option value="Spanish">Spanish</option>
           </select>
         </div>
-      </div>
-    </nav>
+         </Nav> 
+         
+      </>
   );
-}
+};
+export default Navbar;
 
 // export default Navigation;

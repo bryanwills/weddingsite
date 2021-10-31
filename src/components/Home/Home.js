@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css';
+import {Countdown} from '../Countdown/Countdown';
 
 export class Home extends React.Component {
   
@@ -23,7 +24,7 @@ export class Home extends React.Component {
           <div>
             {/* <div style={backgroundStyle}> */}
               <h3 style={quoteStyle}>'Maria & Rob'</h3>
-              {/* </div>       */}
+              <Countdown/>
           </div>
         </div>
       )

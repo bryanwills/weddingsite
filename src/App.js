@@ -5,13 +5,16 @@ import {Location} from './components/Location/Location';
 import {RSVP} from './components/RSVP/RSVP';
 import {Home} from './components/Home/Home';
 import {Countdown} from './components/Countdown/Countdown';
-import {Navbar} from './components/Navbar/Navbar';
+// import {Navbar} from './components/Navbar/Navbar';
 
-function App() {
-  let languageStoredInLocalStorage = localStorage.getItem("language");
-  let [language, setLanguage] = useState(
-    languageStoredInLocalStorage ? languageStoredInLocalStorage : "English"
-  );
+import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// function App() {
+//   let languageStoredInLocalStorage = localStorage.getItem("language");
+//   let [language, setLanguage] = useState(
+//     languageStoredInLocalStorage ? languageStoredInLocalStorage : "English"
+//   );
 
 //   return (
 //     <div className="App">
@@ -51,38 +54,59 @@ function App() {
 //   );
 // }
 
-return (
-  <div className="App">
-    <Navbar
-      language={language}
-      handleSetLanguage={language => {
-        setLanguage(language);
-        storeLanguageInLocalStorage(language);
-      }}
-    />
+// return (
+//   <div className="App">
+//     <Navbar
+//       language={language}
+//       handleSetLanguage={language => {
+//         setLanguage(language);
+//         storeLanguageInLocalStorage(language);
+//       }}
+//     />
 
-    <div class="container">
-      <div class="row">
-      <div class="col-md-8 mb-5">
-          <Home language={language} />
-        </div>
-        <div class="col-md-8 mb-5">
-          <Countdown language={language} />
-        </div>
-        <div class="col-md-8 mb-5">
-          <AboutUs language={language} />
-        </div>
-        <div class="col-md-4 mb-5">
-          <Location language={language} />
-        </div>
-        <div class="col-md-4 mb-5">
-          <RSVP language={language} />
-        </div>
-      </div>
-    </div>
+//     <div class="container">
+//       <div class="row">
+//       <div class="col-md-8 mb-5">
+//           <Home language={language} />
+//         </div>
+//         <div class="col-md-8 mb-5">
+//           <Countdown language={language} />
+//         </div>
+//         <div class="col-md-8 mb-5">
+//           <AboutUs language={language} />
+//         </div>
+//         <div class="col-md-4 mb-5">
+//           <Location language={language} />
+//         </div>
+//         <div class="col-md-4 mb-5">
+//           <RSVP language={language} />
+//         </div>
+//       </div>
+//     </div>
 
-  </div>
-);
+//   </div>
+// );
+// }
+
+function App() {
+  let languageStoredInLocalStorage = localStorage.getItem("language");
+  let [language, setLanguage] = useState(
+    languageStoredInLocalStorage ? languageStoredInLocalStorage : "English"
+  );
+  return (
+    <Router>
+      <Navbar language={language}
+              handleSetLanguage={language => {
+                setLanguage(language);
+                storeLanguageInLocalStorage(language)
+              }}/>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={AboutUs} />
+        <Route path="/location" component={Location} />
+      </Switch>
+    </Router>
+  );
 }
 
 function storeLanguageInLocalStorage(language) {
