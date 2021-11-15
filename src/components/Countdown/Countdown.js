@@ -37,12 +37,11 @@ export class Countdown extends React.Component {
 
   render() {
     return (
-      
-      <div id="countdown">
-        <span>{this.state.days} days</span>
-        <span id="until"> until </span>
-        <span id="ido">"Dia de Boda"</span>
-        <span id="ido">December 28th, 2022</span>
+        <div id="countdown">
+          <span>{this.state.days} days</span>
+          <span id="until"> until </span>
+          <span id="ido">María del Mar and Robert Edward Burton get married</span>
+          <span id="ido">December 28th, 2022</span>
       </div>
     );
   }

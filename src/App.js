@@ -1,12 +1,11 @@
 import './App.css';
 import React, { useState } from "react";
-import {AboutUs} from './components/AboutUs/AboutUs';
+import {Faq} from './components/Faq/Faq';
 import {Location} from './components/Location/Location';
-import {RSVP} from './components/RSVP/RSVP';
 import {Home} from './components/Home/Home';
-import {Countdown} from './components/Countdown/Countdown';
-// import {Navbar} from './components/Navbar/Navbar';
-
+import {DressCode} from './components/Dresscode/Dresscode';
+import {Rsvp} from './components/RSVP/RSVP';
+import {Details} from './components/Details/Details';
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -102,8 +101,11 @@ function App() {
               }}/>
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/about" component={AboutUs} />
+        <Route path="/faq" component={Faq} />
         <Route path="/location" component={Location} />
+        <Route path="/rsvp" component={Rsvp} />
+        <Route path="/dress" component={DressCode} />
+        <Route path="/details" component={Details} />
       </Switch>
     </Router>
   );

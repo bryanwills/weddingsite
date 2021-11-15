@@ -5,8 +5,6 @@ import {
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
-  NavBtnLink,
 } from "./NavbarElements";
 
 // export function Navbar(props) {
@@ -35,33 +33,48 @@ import {
 const Navbar = (props) => {
   return (
       <>
+      <div className="language-select">
+            <select
+              className="custom-select"
+              value={props.language}
+              onChange={e => props.handleSetLanguage(e.target.value)}
+            >
+              <option value="English">English</option>
+              <option value="Spanish">Spanish</option>
+            </select>
+          </div>
          <Nav>
           <NavLogo to="/">
-              Logo
+              Maria & Rob
           </NavLogo>
+          
           <Bars />
 
           <NavMenu>
-              <NavLink to="/" activeStyle>
+              {/* <NavLink to="/" activeStyle>
                   Home
+              </NavLink> */}
+              <NavLink to="/rsvp" activeStyle>
+                  RSVP
               </NavLink>
-              <NavLink to="/about" activeStyle>
-                  About Us
+                  
+              <NavLink to="/dress" activeStyle>
+                  Dress Code
               </NavLink>
+
+              <NavLink to="/details" activeStyle>
+                  Details
+              </NavLink>
+
+              <NavLink to="/FAQ" activeStyle>
+                  Frequently Asked Questions
+              </NavLink>
+
               <NavLink to="/location" activeStyle>
-                  Location
+                  Where To Stay
               </NavLink>
+
           </NavMenu> 
-          <div className="language-select">
-          <select
-            className="custom-select"
-            value={props.language}
-            onChange={e => props.handleSetLanguage(e.target.value)}
-          >
-            <option value="English">English</option>
-            <option value="Spanish">Spanish</option>
-          </select>
-        </div>
          </Nav> 
          
       </>
