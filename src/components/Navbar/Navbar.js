@@ -13,31 +13,21 @@ export class Navibar extends React.Component {
           <Navbar collapseOnSelect expand="lg" className="bg-class" variant="dark">
             <Container>
             <Navbar.Brand href="/">
-              <div>
               <img
                 alt=""
                 src="img/Pets_White.png"
-                width="180"
-                // height="40"
+                width="260"
                 className="d-inline-block align-top"
-              />{' '}
-                <img
-                  alt=""
-                  src="img/MR_InLine_White.png"
-                  width="260"
-                  // height="40"
-                  className="d-inline-block align-top"
-                />{' '}
-              </div>
+              />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="main-nav-links">
-                <Nav.Link href="/rsvp"><h5 className="linkText">RSVP</h5></Nav.Link>
-                <Nav.Link href="/dress"><h5 className="linkText">Dress Code</h5></Nav.Link>
-                <Nav.Link href="/details"><h5 className="linkText">Details</h5></Nav.Link>
-                <Nav.Link href="/faq"><h5 className="linkText">FAQ</h5></Nav.Link>
-                <Nav.Link href="/location"><h5 className="linkText">Where To Stay</h5></Nav.Link>
+                <Nav.Link href="/rsvp">RSVP</Nav.Link>
+                <Nav.Link href="/dress">Dress Code</Nav.Link>
+                <Nav.Link href="/details">Details</Nav.Link>
+                <Nav.Link href="/faq">FAQ</Nav.Link>
+                <Nav.Link href="/location">Where To Stay</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link eventKey={2} href="">

@@ -10,12 +10,9 @@
   color: #CDA14A;
 }
 
-.nav-link{
-  /* font-family: 'Roboto', sans-serif; */
-  /* color: #2699FB !important; */
+.main-nav-links{
+  font-size: 1.5em;
 }
-
-/* .linkText{ color: white ; } */
   
   #menu li,
   link {
