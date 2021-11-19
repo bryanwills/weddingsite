@@ -1,85 +1,61 @@
 import React from "react";
 import {
-  Nav,
-  NavLogo,
-  NavLink,
-  Bars,
-  NavMenu,
-} from "./NavbarElements";
+  Container,
+  Navbar,
+  Nav
+}from 'react-bootstrap';
+import "./Navbar.css";
 
-// export function Navbar(props) {
-//   return (
-//     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-//       <div class="container">
-//         {/* <a class="navbar-brand" href="#">
-//           La Boda de Maria & Rob
-//         </a> */}
-//         <div className="language-select">
-//           english flag / spanish flag
-//           <select
-//             className="custom-select"
-//             value={props.language}
-//             onChange={e => props.handleSetLanguage(e.target.value)}
-//           >
-//             <option value="English">English</option>
-//             <option value="Spanish">Spanish</option>
-//           </select>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// }
-
-const Navbar = (props) => {
-  return (
-      <>
-      <div className="language-select">
-            <select
-              className="custom-select"
-              value={props.language}
-              onChange={e => props.handleSetLanguage(e.target.value)}
-            >
-              <option value="English">English</option>
-              <option value="Spanish">Spanish</option>
-            </select>
-          </div>
-         <Nav>
-          <NavLogo to="/">
-              Maria & Rob
-          </NavLogo>
-          
-          <Bars />
-
-          <NavMenu>
-              {/* <NavLink to="/" activeStyle>
-                  Home
-              </NavLink> */}
-              <NavLink to="/rsvp" activeStyle>
-                  RSVP
-              </NavLink>
-                  
-              <NavLink to="/dress" activeStyle>
-                  Dress Code
-              </NavLink>
-
-              <NavLink to="/details" activeStyle>
-                  Details
-              </NavLink>
-
-              <NavLink to="/FAQ" activeStyle>
-                  Frequently Asked Questions
-              </NavLink>
-
-              <NavLink to="/location" activeStyle>
-                  Where To Stay
-              </NavLink>
-
-          </NavMenu> 
-         </Nav> 
-         
-      </>
-  );
-};
-export default Navbar;
-
-// export default Navigation;
+export class Navibar extends React.Component {
+  render() {
+    return (
+        <div>
+          <Navbar collapseOnSelect expand="lg" className="bg-class" variant="dark">
+            <Container>
+            <Navbar.Brand href="/">
+              <div>
+              <img
+                alt=""
+                src="img/Pets_White.png"
+                width="180"
+                // height="40"
+                className="d-inline-block align-top"
+              />{' '}
+                <img
+                  alt=""
+                  src="img/MR_InLine_White.png"
+                  width="260"
+                  // height="40"
+                  className="d-inline-block align-top"
+                />{' '}
+              </div>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="main-nav-links">
+                <Nav.Link href="/rsvp"><h5 className="linkText">RSVP</h5></Nav.Link>
+                <Nav.Link href="/dress"><h5 className="linkText">Dress Code</h5></Nav.Link>
+                <Nav.Link href="/details"><h5 className="linkText">Details</h5></Nav.Link>
+                <Nav.Link href="/faq"><h5 className="linkText">FAQ</h5></Nav.Link>
+                <Nav.Link href="/location"><h5 className="linkText">Where To Stay</h5></Nav.Link>
+              </Nav>
+              <Nav>
+                <Nav.Link eventKey={2} href="">
+                <div className="language-select">
+                  <select
+                    className="custom-select"
+                    value="english"
+                    >
+                      <option value="English">English</option>
+                      <option value="Spanish">Spanish</option>
+                    </select>
+                  </div>
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+            </Container>
+          </Navbar>
+        </div>
+    );
+  };
+}

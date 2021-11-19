@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Alta_regular";
+  src: local("Alta_regular"),
+    url("./fonts/Alta_regular.otf") format("opentype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Alta_regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +15,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Alta_regular',source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+

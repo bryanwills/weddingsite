@@ -1,6 +1,21 @@
 #menu {
     margin-left: 2rem;
   }
+
+.bg-class{
+  background-color: #0A1D1B;
+}
+
+.active{
+  color: #CDA14A;
+}
+
+.nav-link{
+  /* font-family: 'Roboto', sans-serif; */
+  /* color: #2699FB !important; */
+}
+
+/* .linkText{ color: white ; } */
   
   #menu li,
   link {

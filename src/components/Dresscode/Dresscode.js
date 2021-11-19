@@ -32,20 +32,58 @@ export function DressCode(props) {
     props.language === "Spanish"
       ? (content = content.Spanish)
       : (content = content.English);
+    // return (
+    //   <React.Fragment>
+    //     <h2>{content.title}</h2>
+    //     <address>{content.address}</address>
+    //     <address>
+    //       <abbr title="Phone">{content.phone.label}: </abbr>
+    //       {content.phone.value}
+    //       <br />
+    //       <abbr title="Email">{content.email.label}: </abbr>
+    //       <a href={`mailto:${content.email.value}`}>{content.email.value}</a>
+    //     </address>
+    //   </React.Fragment>
+    // );
     return (
-      <React.Fragment>
-        <h2>{content.title}</h2>
-        <address>{content.address}</address>
-        <address>
-          <abbr title="Phone">{content.phone.label}: </abbr>
-          {content.phone.value}
-          <br />
-          <abbr title="Email">{content.email.label}: </abbr>
-          <a href={`mailto:${content.email.value}`}>{content.email.value}</a>
-        </address>
-      </React.Fragment>
+      <div className="section" id="aboutUs">
+        <div id="content">
+          {content.title}
+        </div>
+        <div id="brideandgroom">
+          <div id="bride">
+            <img alt=""
+              src="/img/white1.png"
+            />
+          </div>
+          <div id="groom">
+            <img alt=""
+              src="/img/white2.png"
+            />
+          </div>
+          <div id="bride">
+            <img alt=""
+              src="/img/white3.png"
+            />
+          </div>
+        </div>
+        <div id="brideandgroom">
+          <div id="groom">
+            <img alt=""
+              src="/img/white4.png"
+            />
+          </div>
+          <div id="bride">
+            <img alt=""
+              src="/img/white5.png"
+            />
+          </div>
+          <div id="groom">
+            <img alt=""
+              src="/img/white6.png"
+            />
+          </div>
+        </div>
+      </div>
     );
   }
-  
-
-// export default AboutUs;

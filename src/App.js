@@ -6,7 +6,7 @@ import {Home} from './components/Home/Home';
 import {DressCode} from './components/Dresscode/Dresscode';
 import {Rsvp} from './components/RSVP/RSVP';
 import {Details} from './components/Details/Details';
-import Navbar from "./components/Navbar/Navbar";
+import {Navibar} from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // function App() {
@@ -94,7 +94,7 @@ function App() {
   );
   return (
     <Router>
-      <Navbar language={language}
+      <Navibar language={language}
               handleSetLanguage={language => {
                 setLanguage(language);
                 storeLanguageInLocalStorage(language)

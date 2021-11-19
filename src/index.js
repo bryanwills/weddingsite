@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import './index.css';   // MUST BE AFTER or Font global won't work
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Amplify from 'aws-amplify';
 import config from './aws-exports';
+import './fonts/Alta_regular.otf';
 Amplify.configure(config);
 
 ReactDOM.render(

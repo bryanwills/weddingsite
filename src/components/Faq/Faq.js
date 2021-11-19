@@ -7,7 +7,8 @@ export function Faq(props) {
       <div>
        <p>
          <h3>GENERAL QUESTIONS</h3>
-       
+         <img src="/img/santamarta.png" width="500"  alt=""></img>
+          <br/>
         <ul>
           <li>Where is Santa Marta?</li> 
           Santa Marta is located in the northeast region of Colombia and its surrounded by the Caribbean sea
