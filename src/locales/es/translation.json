@@ -1,0 +1,33 @@
+{
+  "select_language": "Seleccione el Idioma",
+  "menu_items":{
+    "rsvp":"RSVP",
+    "dress_code":"Código de Vestimenta",
+    "details":"Detalles",
+    "faq":"Preguntas más Frecuentes",
+    "where_to_stay":"Donde quedarse"
+  },
+  "home":{
+    "ceremony":"Ceremonia",
+    "reception":"Recepción",
+    "main":"Por fin ha llegado el día de invitar cordialmente a nuestra familia y amigos a nuestra ceremonia de boda y celebración del amor. Realmente deseamos que ambos lados de nuestra familia y amigos puedan unirse y compartir este momento especial con nosotros. Sabemos que el viaje puede ser lejano, pero creemos que unas buenas vacaciones son necesarias y merecidas por todos después de estos tiempos locos que hemos vivido. Tomaremos todas las precauciones necesarias durante esta pandemia y, con suerte, esta celebración del amor puede unir a todos después de haber estado separados durante tanto tiempo."
+  },
+  "countdown":{
+    "days":"dias",
+    "until":"hasta que",
+    "announce":"María del Mar y Robert Edward Burton se casan",
+    "date":"diciembre 28th, 2022"
+  }
+  ,
+  "dress_code":{
+    "main":"Nos encantaría que todos pudieran adherirse al blanco con el atuendo. Piense que Dîner en Blanc se encuentra con la guayabera."
+  },
+  "details":{
+    "main":"María y Rob estarán en Santa Marta unos días antes de la fecha de la boda para terminar los detalles de último momento, pasar tiempo con familiares cercanos y adaptarse al calor. Proporcionaremos más detalles sobre los eventos previos y / o posteriores a la boda en esta pestaña. Compruebe más tarde si hay actualizaciones."
+  },
+  "faq":{},
+  "location":{
+    "main":"Hay cuatro zonas de la ciudad en las que te recomendamos que te alojes. Cada una de ellas ofrece algo diferente, según lo que más te interese. Explicaremos más a continuación.",
+    "":""
+  }
+}

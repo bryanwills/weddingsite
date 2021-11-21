@@ -1,0 +1,32 @@
+{
+  "select_language": "Select Language",
+  "menu_items":{
+    "rsvp":"RSVP",
+    "dress_code":"Dress Code",
+    "details":"Details",
+    "faq":"FAQ",
+    "where_to_stay":"Where To Stay"
+  },
+  "home":{
+    "ceremony":"Ceremony",
+    "reception":"Reception",
+    "main":"The day has finally come to cordially invite our family and friends to our wedding ceremony and celebration of love. We truly wish that both sides of our family and friends can unite and share this special moment with us. We know that the journey may be far, but we believe that a good vacation is needed and deserved by everyone after these crazy times we have been living through. We will take all the necessary precautions during this pandemic, and hopefully this celebration of love can bring everyone together after being apart for so long."
+  },
+  "countdown":{
+    "days":"days",
+    "until":"until",
+    "announce":"María del Mar and Robert Edward Burton get married",
+    "date":"December 28th, 2022"
+  },
+  "dress_code":{
+    "main":"We would love if everyone could adhere to white with the attire. Think Dîner en Blanc meets guayabera."
+  },
+  "details":{
+    "main":"Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates."
+  },
+  "faq":{},
+  "location":{
+    "main":"There are four areas of town we recommend for you to stay in. Each one of them offers something different, depending on what you’re most interest. We will explain more below.",
+    "":""
+  }
+}

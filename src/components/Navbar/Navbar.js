@@ -5,9 +5,11 @@ import {
   Nav
 }from 'react-bootstrap';
 import "./Navbar.css";
+import LanguageSelect from "../../LanguageSelector";
+import { useTranslation } from 'react-i18next';
 
-export class Navibar extends React.Component {
-  render() {
+const Navibar = () => {
+  const { t } = useTranslation();
     return (
         <div>
           <Navbar collapseOnSelect expand="lg" className="bg-class" variant="dark">
@@ -23,22 +25,16 @@ export class Navibar extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="main-nav-links">
-                <Nav.Link href="/rsvp">RSVP</Nav.Link>
-                <Nav.Link href="/dress">Dress Code</Nav.Link>
-                <Nav.Link href="/details">Details</Nav.Link>
-                <Nav.Link href="/faq">FAQ</Nav.Link>
-                <Nav.Link href="/location">Where To Stay</Nav.Link>
+                <Nav.Link href="/rsvp">{t("menu_items.rsvp")}</Nav.Link>
+                <Nav.Link href="/dress">{t("menu_items.dress_code")}</Nav.Link>
+                <Nav.Link href="/details">{t("menu_items.details")}</Nav.Link>
+                <Nav.Link href="/faq">{t("menu_items.faq")}</Nav.Link>
+                <Nav.Link href="/location">{t("menu_items.where_to_stay")}</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link eventKey={2} href="">
                 <div className="language-select">
-                  <select
-                    className="custom-select"
-                    value="english"
-                    >
-                      <option value="English">English</option>
-                      <option value="Spanish">Spanish</option>
-                    </select>
+                 <LanguageSelect/>
                   </div>
                 </Nav.Link>
               </Nav>
@@ -48,4 +44,4 @@ export class Navibar extends React.Component {
         </div>
     );
   };
-}
+export default Navibar;
