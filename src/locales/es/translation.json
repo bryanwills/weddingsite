@@ -17,17 +17,68 @@
     "until":"hasta que",
     "announce":"María del Mar y Robert Edward Burton se casan",
     "date":"diciembre 28th, 2022"
-  }
-  ,
+  },
+  "rsvp":{
+    "main":"No olvide confirmar su asistencia antes de ________ comunicándose con nuestro organizador de bodas.",
+    "secondary":"Incluya las restricciones dietéticas, las alergias, más una, y cualquier solicitud de canción.",
+    "wedding_planner_info":"Información de contacto del planificador de bodas:"
+  },
   "dress_code":{
     "main":"Nos encantaría que todos pudieran adherirse al blanco con el atuendo. Piense que Dîner en Blanc se encuentra con la guayabera."
   },
   "details":{
-    "main":"María y Rob estarán en Santa Marta unos días antes de la fecha de la boda para terminar los detalles de último momento, pasar tiempo con familiares cercanos y adaptarse al calor. Proporcionaremos más detalles sobre los eventos previos y / o posteriores a la boda en esta pestaña. Compruebe más tarde si hay actualizaciones."
+    "main":"María y Rob estarán en Santa Marta unos días antes de la fecha de la boda para terminar los detalles de último momento, pasar tiempo con familiares cercanos y adaptarse al calor. Proporcionaremos más detalles sobre los eventos previos y / o posteriores a la boda en esta pestaña. Compruebe más tarde si hay actualizaciones.",
+    "second":"Vuelva pronto para obtener más información aquí. Será tratado como un blog ... nuevas fechas, nueva información, sin eliminar publicaciones anteriores."
   },
-  "faq":{},
+  "faq":{
+    "gen":"PREGUNTAS GENERALES",
+    "wed":"REGUNTAS SOBRE LA CELEBRACIÓN DE BODAS",
+    "q1":"¿Dónde está Santa Marta?",
+    "a1":"Santa Marta está ubicada en la región noreste de Colombia y está rodeada por el mar Caribe.",
+    "q2":"¿Cómo llegar a Santa Marta?",
+    "a2":"Nuestra sugerencia es viajar desde su ciudad / país de origen hasta Bogotá, capital de Colombia. Una vez allí, puede volar de ida y vuelta a Santa Marta a través de una de las aerolíneas locales. Santa Marta está a menos de 90 minutos de vuelo desde Bogotá. Tenga en cuenta que, dependiendo de su hora de llegada a Bogotá, es posible que deba pasar la noche allí y viajar a Santa Marta al día siguiente (o cuando lo desee, si desea pasar un tiempo en Bogotá antes del 28 de diciembre). . Nuestra aerolínea más recomendada es Avianca (www.avianca.com), pero todas las demás aerolíneas locales también son muy recomendadas. Un sitio web como www.despegar.com le ofrece todas las opciones disponibles. Tenga en cuenta que todos los años, la semana del 24 de diciembre al 1 de enero es siempre la semana más concurrida y popular en Santa Marta. Por tanto, la disponibilidad y los precios reflejan su popularidad. Un estimado.",
+    "q3":"¿Cuánto cuesta?",
+    "a3":"Puede volar Bogotá-Santa Marta ida y vuelta a cualquier lugar entre $ 90- $ 200 / persona ida y vuelta, dependiendo de la aerolínea, el equipaje y la anticipación con la que se reserven los vuelos.",
+    "q4":"¿Como está el clima?",
+    "a4":"Hace calor. Especialmente si se une a nosotros desde Canadá. Empaque lo más ligero y tropical posible. Tenga en cuenta que las temperaturas de Bogotá son más frías, por lo que se recomienda llevar chaqueta o capa ligera.",
+    "q5":"¿Qué es la moneda colombiana?",
+    "a5":"Colombia usa pesos colombianos. Sugerimos un sitio web como www.oanda.com/currencyconverter para comprender mejor los precios.",
+    "q6":"¿Es seguro?",
+    "a6":"María nació y se crió en Colombia y pasó 6 años de su vida en Santa Marta. Respuesta corta 'SÍ, es seguro'. Sin embargo, le recomendamos que consulte con la novia y / o los lugareños qué áreas evitar, si es necesario. Recomendamos encarecidamente el uso de aplicaciones como Uber para un transporte más seguro y / o hacer uso de los taxis que haya solicitado.",
+    "q7":"¿Qué actividades ofrece Santa Marta?",
+    "a7":"Santa Marta es un pueblo hermoso. Tiene hermosas playas, museos, restaurantes, bares y el mundialmente famoso Parque Tayrona, que recomendamos encarecidamente explorar si espera quedarse unos días en Santa Marta. (No dude en pedirle a la novia cualquier información sobre Santa Marta y cosas interesantes que hacer durante su visita).",
+    "q8":"¿Hay otros lugares para visitar?",
+    "a8":"Mientras esté en Colombia, le recomendamos visitar Medellín, Cali, Bogotá y Bucaramanga. Todas estas ciudades tienen varias cosas que ofrecer y no te decepcionará. (Para más información o más específica, háganoslo saber y estaremos encantados de orientarle).",
+    "q9":"¿Cómo llego al lugar de la boda?",
+    "a9":"Proporcionaremos transporte desde 4 lugares de recogida diferentes en toda la ciudad. Al final de la noche, habrá dos horarios de recogida diferentes para que los huéspedes regresen de forma segura. Si lo prefiere, también se encuentran disponibles servicios de taxi.",
+    "q10":"¿Qué pasa si necesito servicios de peluquería / maquillaje / uñas?",
+    "a10":"Nos complace brindarle la información si necesitara algún servicio.",
+    "q11":"¿Doy propina?",
+    "a11":"Tendremos barra libre para que disfruten nuestros huéspedes. Si desea dar propina a alguien que trabaja ese día, le recomendamos que lo haga. Normalmente, en Colombia las propinas son del 15%.",
+    "q12":"¿Existe un registro de bodas / lista de regalos?",
+    "a12":"Tu presencia es el único presente requerido.",
+    "q13":"¿Puedo traer niños?",
+    "a13":"Los niños son bienvenidos a nuestro evento. Tendremos un área separada para que los niños pasen tiempo para que puedan disfrutar del día sin tener que preocuparse. Habrá un par de lugareños en el lugar cuidándolos y brindándoles entretenimiento durante toda la noche."
+  },
   "location":{
     "main":"Hay cuatro zonas de la ciudad en las que te recomendamos que te alojes. Cada una de ellas ofrece algo diferente, según lo que más te interese. Explicaremos más a continuación.",
-    "":""
+    "belo":{
+      "main":"Es el área más cercana al aeropuerto y al lugar de la boda. Es el más alejado del centro de Santa Marta (aproximadamente 25 minutos en automóvil) y también es la parte más tranquila de la ciudad en lo que respecta a la vida nocturna y el entretenimiento. Tiene las mejores playas y los mejores hoteles. También hay muchas opciones de alquiler en esta área, aquí es donde se hospedarán el novio y la novia.",
+      "hotel_label":"Recommended hotels:",
+      "zuana":"Resort de playa Zuana",
+      "irotama":"Hotel Irotama",
+      "marriott":"Santa Marta Marriot Resort",
+      "sintana":"Sintana Resort"
+    },
+    "pozo":{
+      "main":"Como Bello Horizonte, Horizonte, solo cinco minutos más hacia el centro de Santa Marta. Hay hoteles y muchos alquileres de Airbnb disponibles en esta área."
+    },
+    "elro":{
+      "main":"Está a unos 15 minutos en coche del lugar de la boda y a 20 minutos del aeropuerto. Hay muchas opciones de hoteles económicos en esta zona de la ciudad, así como alquileres. Es la zona más turística de Santa Marta para los colombianos. La playa en sí no es tan bonita debido a la contaminación del turismo, pero hay muchos barcos en los que puedes subirte para ir a playas realmente bonitas. Esta zona de la ciudad tiene mucha vida nocturna y entretenimiento, además de restaurantes y bares."
+    },
+    "sant":{
+      "main":"Es la zona más alejada del aeropuerto y del lugar de celebración de la boda, pero sigue siendo muy atractiva. Tiene mucha arquitectura histórica, restaurantes, bares y discotecas. Aunque hay un área de la bahía, no hay mucha gente que nade aquí debido a la contaminación del tráfico oceánico.",
+      "santa":"(Centro de Santa Marta)"
+    }
   }
 }

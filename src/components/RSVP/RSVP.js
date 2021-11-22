@@ -1,23 +1,24 @@
 import React from "react";
 import "./RSVP.css";
+import { useTranslation } from 'react-i18next';
 
-export function Rsvp(props) {
+ const Rsvp = () => {
+    const { t } = useTranslation();
     return (
         <div className="section" id="rsvp">
-            <h2>  Don’t forget to RSVP before ________ by contacting our wedding planner. </h2>
-                <p>
+            <h2>{t("rsvp.main")}</h2>
                   <br/>
-                  Please include any dietary restrictions, allergies, plus one, and any song request.
+                  {t("rsvp.secondary")}
                   <br/>
-                  Wedding Planner Contact Info:
+                  {t("rsvp.wedding_planner_info")}
                   <address>
                   Karina Avendaño <a href="mailto:karina@verdementa.com.co?subject=Maria Del Mar y Robert Edward Burton Boda">Karina Avendaño</a>.
                   </address>
-                  (whatsapp logo) +57 315 219 9077
+                  <img src="img/WhatsApp-clear.png" height="50" alt="WhatsApp Logo"/> +57 315 219 9077
                    <br/>
-                </p>
         </div>
       );
   }
+  export default Rsvp;
 
 

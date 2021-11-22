@@ -1,11 +1,11 @@
 import './App.css';
-import React, { useState } from "react";
-import {Faq} from './components/Faq/Faq';
-import {Location} from './components/Location/Location';
+import React from "react";
+import Faq from './components/Faq/Faq';
+import Location from './components/Location/Location';
 import Home from './components/Home/Home';
-import {DressCode} from './components/Dresscode/Dresscode';
-import {Rsvp} from './components/RSVP/RSVP';
-import {Details} from './components/Details/Details';
+import DressCode from './components/Dresscode/Dresscode';
+import Rsvp from './components/RSVP/RSVP';
+import Details from './components/Details/Details';
 import Navibar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

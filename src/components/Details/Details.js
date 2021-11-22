@@ -1,25 +1,26 @@
 import React from "react";
 import "./Details.css";
+import { useTranslation } from 'react-i18next';
+import { Alert } from 'react-bootstrap';
 
-export function Details(props) {
-    let content = {
-      English: {
-        copy: "Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates.",
-      },
-      Spanish: {
-        copy: "à´²àµà´±àµà´ à´à´ªàµà´¸à´¿à´¯à´, à´²àµà´±àµà´ à´à´ªàµà´¸à´¿à´¯à´, à´²àµà´±àµà´, 123456",
-      }
-    };
-  
-    props.language === "Spanish"
-      ? (content = content.Malayalam)
-      : (content = content.English);
+  const Details = () => {
+    const { t } = useTranslation();
     return (
       <React.Fragment>
-        <address>{content.copy}</address>
+       
+        <Alert variant="success">
+          <Alert.Heading>Nov 30th 2021:</Alert.Heading>
+            <p>
+              {t("details.main")}
+            </p>
+            <hr />
+            <p className="mb-0">
+             {t("details.second")}
+            </p>
+          </Alert>
       </React.Fragment>
     );
   }
   
 
-// export default AboutUs;
+export default Details;

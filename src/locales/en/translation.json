@@ -18,15 +18,67 @@
     "announce":"María del Mar and Robert Edward Burton get married",
     "date":"December 28th, 2022"
   },
+  "rsvp":{
+    "main":"Don’t forget to RSVP before ________ by contacting our wedding planner.",
+    "secondary":"Please include any dietary restrictions, allergies, plus one, and any song request.",
+    "wedding_planner_info":"Wedding Planner Contact Info:"
+  },
   "dress_code":{
     "main":"We would love if everyone could adhere to white with the attire. Think Dîner en Blanc meets guayabera."
   },
   "details":{
-    "main":"Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates."
+    "main":"Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates.",
+    "second":"Please checkback soon for more information here.  It will be treated like a blog... new dates, new info, not deleting older posts."
   },
-  "faq":{},
+  "faq":{
+    "gen":"GENERAL QUESTIONS",
+    "wed":"WEDDING CELEBRATION QUESTIONS",
+    "q1":"Where is Santa Marta?",
+    "a1":"Santa Marta is located in the northeast region of Colombia and its surrounded by the Caribbean sea.",
+    "q2":"How to get to Santa Marta?",
+    "a2":"Our suggestion is to travel from your city/country of origin to Bogota, capital city of Colombia. Once there, you can fly round trip to Santa Marta through one of the local airlines. Santa Marta is less than a 90-minute flight from Bogota. Take into consideration that depending on your arrival time to Bogota, you may need to spend the night there and travel to Santa Marta the next day (or whenever you wish to, if you would like to spend some time in Bogota prior to December 28). Our most recommended airline is Avianca (www.avianca.com), but all other local airlines are highly recommended as well. A website such as www.despegar.com provides you with all options available. Please note that every year, the week of December 24th-January 1st is always the busiest, most popular week in Santa Marta. Therefore, availability and prices reflect its popularity. An estimate.",
+    "q3":"How much does it cost?",
+    "a3":"You can fly Bogota-Santa Marta round trip anywhere between $90-$200/person roundtrip, depending of airline, luggage, and how far in advance flights are booked.",
+    "q4":"What’s the weather like?",
+    "a4":"It’s HOT. Specially if you’re joining us from Canada. Pack as lightly and tropical as possible. Take into consideration that Bogota’s temperatures are colder, therefore having a jacket or light layer is recommended.",
+    "q5":"What is Colombian currency?",
+    "a5":"Colombia uses Colombian pesos. We suggest a website such as www.oanda.com/currencyconverter to understand pricing better.",
+    "q6":"Is it safe?",
+    "a6":"Maria was born and raised in Colombia, and she spent 6 years of her life in Santa Marta. Short answer “YES, it is safe”. However, we do recommend you inquire with the bride and/or locals as to what areas to avoid, if needed. We strongly recommend the use of apps such as Uber for safer transportation, and/or make use of taxis that you have ordered.",
+    "q7":"What is there to do in Santa Marta?",
+    "a7":"Santa Marta is a beautiful town. It has beautiful beaches, museums, restaurants, bars, and the world famous Tayrona Park, which we strongly recommend exploring if you are hoping to stay a few days in Santa Marta. (Feel free to ask the bride for any information regarding Santa Marta and exciting things to do while visiting).",
+    "q8":"Are there any other places to visit?",
+    "a8":"While in Colombia, we recommend visiting Medellin, Cali, Bogota, and Bucaramanga. All these cities have various things to offer, and you will not be disappointed. (For further or more specific information, let us know and we will be more than happy to guide you).",
+    "q9":"How do I arrive to the wedding venue?",
+    "a9":"We will provide transportation from 4 different pickup locations across the city. At the end of the evening there will two different pick-up times to return guests safely. If you prefer, taxi services are also available.",
+    "q10":"What if I need hair/makeup/nails services?",
+    "a10":"We are happy to provide you with the information if you were to need any services.",
+    "q11":"Do I tip?",
+    "a11":"We will be having an open bar for our guests to enjoy. If you wish to tip anyone working that day, we encourage you to do so. Typically, in Colombia tips are 15%.",
+    "q12":"Is there a wedding registry/gift list?",
+    "a12":"Your presence is the only present required.",
+    "q13":"Can I bring kids?",
+    "a13":"Kids are welcome to our event. We will have a separate area set up for children to spend time at so that you can enjoy the day without having to be concerned. There will be a couple of locals on site looking after them and providing them with entertainment throughout the night."
+  },
   "location":{
     "main":"There are four areas of town we recommend for you to stay in. Each one of them offers something different, depending on what you’re most interest. We will explain more below.",
-    "":""
+    "belo":{
+      "main":"It’s the closest area to the airport and wedding venue. It’s the farthest from downtown Santa Marta (approx. 25-minute car ride) and it is also the quietest part of town when it comes to nightlife and entertainment. It does have the nicer beaches and best hotels. There are also plenty of rental options in this area as well – this is where the groom and bride will be staying.",
+      "hotel_label":"Recommended hotels:",
+      "zuana":"Zuana Beach Resort",
+      "irotama":"Irotama Hotel",
+      "marriott":"Santa Marta Marriot Resort",
+      "sintana":"Sintana Resort"
+    },
+    "pozo":{
+      "main":"Like Bello Horizonte, Horizonte, only five more minutes towards downtown Santa Marta. There are hotels and lots of Airbnb rentals available in this area."
+    },
+    "elro":{
+      "main":"It’s about 15-minute car ride to the wedding venue and 20 minutes from the airport. There are a lot of economic hotel options in this area of town, as well as rentals. It’s the most touristic area of Santa Marta for Colombians. The beach itself is not as pretty due to pollution from tourism, but there are lots of boats that you can hop on to go to really nice beaches. This area of town has a lot of nightlife and entertainment, as well as restaurants and bars."
+    },
+    "sant":{
+      "main":"It’s the farthest area from the airport and the wedding venue, but still very attractive, nonetheless. It has a lot of historic architecture, restaurants, bars, and night clubs. Although there is a bay area, not many people swim here due to pollution from ocean traffic.",
+      "santa":"(downtown Santa Marta)"
+    }
   }
 }

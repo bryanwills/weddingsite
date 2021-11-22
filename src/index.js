@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import Amplify from 'aws-amplify';
 import config from './aws-exports';
 import './fonts/Alta_regular.otf';
+import './fonts/Raleway-Regular.ttf';
 Amplify.configure(config);
 
 ReactDOM.render(

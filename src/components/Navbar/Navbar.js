@@ -18,7 +18,7 @@ const Navibar = () => {
               <img
                 alt=""
                 src="img/Pets_White.png"
-                width="260"
+                width="200"
                 className="d-inline-block align-top"
               />
             </Navbar.Brand>
