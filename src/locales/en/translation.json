@@ -28,7 +28,7 @@
   },
   "details":{
     "main":"Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates.",
-    "second":"Please checkback soon for more information here.  It will be treated like a blog... new dates, new info, not deleting older posts."
+    "second":""
   },
   "faq":{
     "gen":"GENERAL QUESTIONS",
@@ -64,7 +64,7 @@
     "main":"There are four areas of town we recommend for you to stay in. Each one of them offers something different, depending on what you’re most interest. We will explain more below.",
     "belo":{
       "main":"It’s the closest area to the airport and wedding venue. It’s the farthest from downtown Santa Marta (approx. 25-minute car ride) and it is also the quietest part of town when it comes to nightlife and entertainment. It does have the nicer beaches and best hotels. There are also plenty of rental options in this area as well – this is where the groom and bride will be staying.",
-      "hotel_label":"Recommended hotels:",
+      "hotel_labels":"Recommended hotels:",
       "zuana":"Zuana Beach Resort",
       "irotama":"Irotama Hotel",
       "marriott":"Santa Marta Marriot Resort",

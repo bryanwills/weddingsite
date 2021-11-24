@@ -10,11 +10,11 @@ const Countdown = () => {
   const timeUntil = weddingTime - currentTime;
   const days = Math.floor(timeUntil / (1000 * 60 * 60 * 24));
   return (
-        <div id="countdown">
-          <span>{days} {t("countdown.days")}</span>
+        <div id="main">
+          <span>{days} {t("countdown.days")}</span><br/>
           <span id="until"> {t("countdown.until")} </span>
-          <span id="ido">{t("countdown.announce")}</span>
-          <span id="ido">{t("countdown.date")}</span>
+          <span id="ido">{t("countdown.announce")}</span><br/>
+          <span id="ido">{t("countdown.date")}!</span>
       </div>
     );
 }

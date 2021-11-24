@@ -1,6 +1,7 @@
 import React from "react";
 import "./Dresscode.css";
 import { useTranslation } from 'react-i18next';
+import { Image } from 'react-bootstrap';
 
 const DressCode = () => {
   const { t } = useTranslation();
@@ -11,35 +12,35 @@ const DressCode = () => {
         </div>
         <div id="brideandgroom">
           <div id="bride">
-            <img alt=""
-              src="/img/white1.png"
+            <Image alt=""
+              src="/img/white1.png" rounded
             />
           </div>
           <div id="groom">
-            <img alt=""
-              src="/img/white2.png"
+            <Image alt=""
+              src="/img/white2.png" rounded
             />
           </div>
           <div id="bride">
-            <img alt=""
-              src="/img/white3.png"
-            />
+            <Image alt=""
+              src="/img/white3.png" height="360px" rounded
+            /> 
           </div>
         </div>
         <div id="brideandgroom">
           <div id="groom">
-            <img alt=""
-              src="/img/white4.png"
+            <Image alt=""
+              src="/img/white4.png" rounded
             />
           </div>
           <div id="bride">
-            <img alt=""
-              src="/img/white5.png"
+            <Image alt=""
+              src="/img/white5.png" rounded
             />
           </div>
           <div id="groom">
-            <img alt=""
-              src="/img/white6.png"
+            <Image alt=""
+              src="/img/white6.png" rounded
             />
           </div>
         </div>

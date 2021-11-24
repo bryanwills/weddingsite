@@ -3,16 +3,21 @@ import React from "react";
 import "./Location.css";
 import { Accordion } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
+import { Image } from 'react-bootstrap';
 
 const Location = () => {
   const { t } = useTranslation();
     return (
       <div className="location section" id="location">
-        {t("location.main")}
+        {t("location.main")}<br/>
+        <div className="map">
+        <Image src="img/location.png" fluid/><br/>
+        </div>
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>Bello Horizonte</Accordion.Header>
             <Accordion.Body>
+            <Image src="img/bellohorizante.png" fluid/><br/>
               {t("location.belo.main")}
               <br/>
               <br/>
@@ -28,6 +33,7 @@ const Location = () => {
           <Accordion.Item eventKey="1">
             <Accordion.Header>Pozos Colorados</Accordion.Header>
             <Accordion.Body>
+            <Image src="img/pozos.png" fluid/><br/>
               {t("location.pozo.main")}
             </Accordion.Body>
           </Accordion.Item>
@@ -37,12 +43,14 @@ const Location = () => {
           <Accordion.Item eventKey="0">
             <Accordion.Header>El Rodadero</Accordion.Header>
             <Accordion.Body>
+            <Image src="img/El_Rodadero.jpg" fluid/><br/>
               {t("location.elro.main")}
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Santa Marta (downtown Santa Marta)</Accordion.Header>
+            <Accordion.Header>Santa Marta {t("location.sant.santa")}</Accordion.Header>
             <Accordion.Body>
+              <Image src="img/santamarta1.png" fluid/><br/>
               {t("location.sant.main")}
             </Accordion.Body>
           </Accordion.Item>

@@ -7,7 +7,10 @@ import Image from 'react-bootstrap/Image'
     const { t } = useTranslation();
     return (
       <div>
+       <div className="section">
+        <div className="map">
          <h1>{t("faq.gen")}</h1>
+         </div>
          <Image src="/img/santamarta.png"fluid />
           <br/>
           <br/><h3>{t("faq.q1")}</h3>
@@ -27,7 +30,11 @@ import Image from 'react-bootstrap/Image'
           <br/><h3>{t("faq.q8")}</h3>
           {t("faq.a8")}
           <br/>
+          <hr/>
+          <div className="map">
           <h1>{t("faq.wed")}</h1>
+          </div>
+          <Image src="/img/mamancana.png"fluid />
           <br/><h3>{t("faq.q9")}</h3>
           {t("faq.a9")}
           <br/><h3>{t("faq.q10")}</h3>
@@ -38,6 +45,7 @@ import Image from 'react-bootstrap/Image'
           {t("faq.a12")}
           <br/><h3>{t("faq.q13")}</h3>
           {t("faq.a13")}
+      </div>
       </div>
     );
   }

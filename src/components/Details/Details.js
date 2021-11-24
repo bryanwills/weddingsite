@@ -7,7 +7,7 @@ import { Alert } from 'react-bootstrap';
     const { t } = useTranslation();
     return (
       <React.Fragment>
-       
+       <div className="section">
         <Alert variant="success">
           <Alert.Heading>Nov 30th 2021:</Alert.Heading>
             <p>
@@ -18,6 +18,7 @@ import { Alert } from 'react-bootstrap';
              {t("details.second")}
             </p>
           </Alert>
+          </div>
       </React.Fragment>
     );
   }
