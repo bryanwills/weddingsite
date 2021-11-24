@@ -6,7 +6,7 @@
   }
 
   .homesection {
-    background-image: url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -14,7 +14,6 @@
     justify-content: center;
     /* align-items: center; */
     height: 100vh;
-    opacity: 0.6;
     position: absolute;
     width: 100%;
     /* height: 90vw; */
