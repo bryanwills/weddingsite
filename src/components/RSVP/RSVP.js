@@ -1,12 +1,11 @@
 import React from "react";
-import "./RSVP.css";
 import { useTranslation } from 'react-i18next';
 import { Card } from 'react-bootstrap';
 
  const Rsvp = () => {
     const { t } = useTranslation();
     return (
-        <div className="rsvpsection" id="rsvp">
+        <div className="designsection" id="rsvp">
             <Card>
             <div className="textcontent">
             <Card.Body>
@@ -25,7 +24,7 @@ import { Card } from 'react-bootstrap';
             </Card>
         </div>
       );
-  }
+  };
   export default Rsvp;
 
 

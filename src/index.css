@@ -19,6 +19,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom:60px;
+  background-color: #0A1D1B;
 }
 
 code {
@@ -27,11 +29,74 @@ code {
 }
 
 button {
-  color: #CDA14A;
+  color: #052E26;
 }
 
 a {
-  color: #CDA14A;
+  color: #052E26;
 }
 
+.section {
+  margin: auto;
+  width: 90%;
+  border: 3px solid #CDA14A;
+  padding: 10px;
+}
+
+.designsection {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  position: absolute;
+  width: 100%;
+  border: 3px solid #CDA14A;
+}
+
+.designsectionlarge {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  border: 3px solid #CDA14A;
+}
+
+.designsectionhuge {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  position: absolute;
+  width: 100%;
+  border: 3px solid #CDA14A;
+}
+
+.textcontent{
+  position: relative;
+  background-color: rgba(205,161,74, 0.7);
+}
+
+.countdowntitle{
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.header{
+  text-align: center;
+  /* font-size: 1.9em; */
+}
 

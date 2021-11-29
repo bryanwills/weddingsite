@@ -1,50 +1,60 @@
 import React from "react";
-import "./Dresscode.css";
 import { useTranslation } from 'react-i18next';
-import { Image } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 
 const DressCode = () => {
   const { t } = useTranslation();
     return (
-      <div className="section" id="aboutUs">
-        <div id="content">
-        {t("dress_code.main")}
-        </div>
-        <div id="brideandgroom">
-          <div id="bride">
-            <Image alt=""
-              src="/img/white1.png" rounded
-            />
+      <div className="designsectionlarge" id="dresscode">
+          <Card>
+          <div className="textcontent">
+          <Card.Body>
+            {t("dress_code.main")}
+            <ImageList cols={3} rowHeight={250}>
+            {itemData.map((item) => (
+              <ImageListItem key={item.img}>
+                <img
+                  src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                  srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                  alt={item.title}
+                  loading="lazy"
+                />
+              </ImageListItem>
+            ))}
+             </ImageList>
+          </Card.Body>
           </div>
-          <div id="groom">
-            <Image alt=""
-              src="/img/white2.png" rounded
-            />
-          </div>
-          <div id="bride">
-            <Image alt=""
-              src="/img/white3.png" height="360px" rounded
-            /> 
-          </div>
-        </div>
-        <div id="brideandgroom">
-          <div id="groom">
-            <Image alt=""
-              src="/img/white4.png" rounded
-            />
-          </div>
-          <div id="bride">
-            <Image alt=""
-              src="/img/white5.png" rounded
-            />
-          </div>
-          <div id="groom">
-            <Image alt=""
-              src="/img/white6.png" rounded
-            />
-          </div>
-        </div>
-      </div>
+        </Card>
+      </div>   
     );
   }
+
+  const itemData = [
+    {
+      img: '/img/white1.png',
+      title: 'Bed',
+    },
+    {
+      img: '/img/white2.png',
+      title: 'Books',
+    },
+    {
+      img: '/img/white3.png',
+      title: 'Sink',
+    },
+    {
+      img: '/img/white4.png',
+      title: 'Kitchen',
+    },
+    {
+      img: '/img/white5.png',
+      title: 'Blinds',
+    },
+    {
+      img: '/img/white6.png',
+      title: 'Chairs',
+    },
+  ];
   export default DressCode;

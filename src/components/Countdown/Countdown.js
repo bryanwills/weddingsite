@@ -1,5 +1,4 @@
 import React from "react";
-import "./Countdown.css";
 import { useTranslation } from 'react-i18next';
 
 const Countdown = () => {
@@ -11,7 +10,9 @@ const Countdown = () => {
   const days = Math.floor(timeUntil / (1000 * 60 * 60 * 24));
   return (
         <div id="main">
-          <span>{days} {t("countdown.days")}</span><br/>
+        <div className="countdowntitle">
+          {days} {t("countdown.days")}<br/>
+        </div>
           <span id="until"> {t("countdown.until")} </span>
           <span id="ido">{t("countdown.announce")}</span><br/>
           <span id="ido">{t("countdown.date")}!</span>
