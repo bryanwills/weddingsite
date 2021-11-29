@@ -16,7 +16,7 @@ const Location = () => {
               {t("location.main")}<br/>
               <Image src="img/location.png" fluid/><br/>
             </div>
-              <Accordion defaultActiveKey="0">
+              <Accordion>
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Bello Horizonte</Accordion.Header>
                   <Accordion.Body>
@@ -40,17 +40,14 @@ const Location = () => {
                     {t("location.pozo.main")}
                   </Accordion.Body>
                 </Accordion.Item>
-              </Accordion>
-
-              <Accordion>
-                <Accordion.Item eventKey="0">
+                <Accordion.Item eventKey="2">
                   <Accordion.Header>El Rodadero</Accordion.Header>
                   <Accordion.Body>
                   <Image src="img/El_Rodadero.jpg" fluid/><br/>
                     {t("location.elro.main")}
                   </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="1">
+                <Accordion.Item eventKey="3">
                   <Accordion.Header>Santa Marta {t("location.sant.santa")}</Accordion.Header>
                   <Accordion.Body>
                     <Image src="img/santamarta1.png" fluid/><br/>

@@ -6,14 +6,14 @@ import { Card } from 'react-bootstrap';
   const Faq = () => {
     const { t } = useTranslation();
     return (
-      <div className="designsectionhuge" id="home">
+      <div className="designsectionhuge" id="faq">
         <Card>
         <div className="textcontent">
         <Card.Body>
           <Card.Text>
           <div className="header">
           <h1 >{t("faq.gen")}</h1>
-          <Image src="/img/santamarta.png"fluid />
+          <Image src="/img/santamarta.png" />
           </div>
             <br/>
             <br/><h3>{t("faq.q1")}</h3>
@@ -36,7 +36,7 @@ import { Card } from 'react-bootstrap';
             <hr/>
             <div className="header">
             <h1 className="header">{t("faq.wed")}</h1>
-            <Image src="/img/mamancana.png"fluid />
+            <Image src="/img/mamancana.png" />
             </div>
             <br/><h3>{t("faq.q9")}</h3>
             {t("faq.a9")}
@@ -54,5 +54,5 @@ import { Card } from 'react-bootstrap';
         </Card>
     </div>
     );
-  }
+  };
   export default Faq;

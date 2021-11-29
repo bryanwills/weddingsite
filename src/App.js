@@ -7,7 +7,6 @@ import DressCode from './components/Dresscode/Dresscode';
 import Rsvp from './components/RSVP/RSVP';
 import Details from './components/Details/Details';
 import Navibar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -22,9 +21,7 @@ function App() {
         <Route path="/dress" component={DressCode} />
         <Route path="/details" component={Details} />
       </Switch>
-      <Footer />
     </Router>
   );
-}
-
+};
 export default App;

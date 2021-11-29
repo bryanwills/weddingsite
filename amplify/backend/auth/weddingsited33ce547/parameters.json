@@ -1,6 +1,6 @@
 {
     "identityPoolName": "weddingsited33ce547_identitypool_d33ce547",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "weddind33ce547",
     "userPoolName": "weddingsited33ce547_userpool_d33ce547",
     "autoVerifiedAttributes": [

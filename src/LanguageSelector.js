@@ -1,12 +1,10 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
 import i18next from "i18next";
 import ArrowDropDown from "@mui/icons-material/ArrowDropDown";
 import Button from "@mui/material/Button";
 import Popover from "@mui/material/Popover";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import ListSubheader from "@mui/material/ListSubheader";
 
 const languageMap = {
   en: { label: "English", dir: "ltr", active: true },
@@ -15,7 +13,6 @@ const languageMap = {
 
 const LanguageSelect = () => {
   const selected = localStorage.getItem("i18nextLng").substr(0,2) || "en";
-  const { t } = useTranslation();
 
   const [menuAnchor, setMenuAnchor] = React.useState(null);
   React.useEffect(() => {

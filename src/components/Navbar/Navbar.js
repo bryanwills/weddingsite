@@ -33,9 +33,11 @@ const Navibar = () => {
               </Nav>
               <Nav>
                 <Nav.Link eventKey={2} href="">
-                <div className="language-select">
-                 <LanguageSelect/>
+                <Navbar.Text>
+                  <div className="align-right">
+                    <LanguageSelect/>
                   </div>
+                </Navbar.Text>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>

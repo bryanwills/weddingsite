@@ -11,7 +11,8 @@ const DressCode = () => {
           <Card>
           <div className="textcontent">
           <Card.Body>
-            {t("dress_code.main")}
+            <Card.Title>{t("dress_code.main")}</Card.Title>
+            <br/>
             <ImageList cols={3} rowHeight={250}>
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
