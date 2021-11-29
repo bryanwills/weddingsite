@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
-
 import ArrowDropDown from "@mui/icons-material/ArrowDropDown";
 import Button from "@mui/material/Button";
 import Popover from "@mui/material/Popover";
@@ -44,7 +43,6 @@ const LanguageSelect = () => {
       >
         <div>
           <List>
-            <ListSubheader>{t("select_language")}</ListSubheader>
             {Object.keys(languageMap)?.map(item => (
               <ListItem
                 button
