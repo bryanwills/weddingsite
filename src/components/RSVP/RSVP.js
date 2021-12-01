@@ -6,7 +6,7 @@ import { Card } from 'react-bootstrap';
     const { t } = useTranslation();
     return (
         <div className="" id="rsvp">
-            <div className="bg-text">
+            <div className="bg-text-centered">
             <Card.Body>
                 <Card.Title>{t("rsvp.main")}</Card.Title>
                 <Card.Text>

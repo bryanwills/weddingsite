@@ -15,12 +15,13 @@ const Home = () => {
                     />
                     <Countdown/>
                     <br/>
-                    {t("home.ceremony")}: <a href="https://mamancana.co/en/">Mamancana</a> 4:00pm<br/>
-                    {t("home.reception")}: <a href="https://mamancana.co/en/">Mamancana</a> 6:00pm
+                    {t("home.ceremony")}:  Mamancana - 4:00pm<br/>
+                    {t("home.reception")}: Mamancana - 6:00pm<br/><br/><br/>
                     <br/>
                     {t("home.main")}
                     <br/><br/>
                     {t("home.main2")}
+                    <br/>
       </div>
     </div>
     // <div>

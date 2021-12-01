@@ -29,7 +29,7 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .xs {background: red; display: block; }
-  body { background-image: url("/src/img/maria&rob.jpeg"); 
+  body { background-image: url("/src/img/maria&rob.png"); 
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: top center;
@@ -39,21 +39,21 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .sm {background: green; display: block; }
-  body { background-image: url("/src/img/maria&rob.jpeg"); 
+  body { background-image: url("/src/img/maria&rob.png"); 
     background-size: 768px;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .md { background: blue; display: block; }
-  body { background-image: url("/src/img/maria&rob.jpeg"); 
+  body { background-image: url("/src/img/maria&rob.png"); 
     background-size: 992px;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .lg {background: orange; display: block;}
-  body { background-image: url("/src/img/maria&rob.jpeg"); 
+  body { background-image: url("/src/img/maria&rob.png"); 
     background-size: 1200px;}
 
 } 
@@ -62,7 +62,7 @@ body {
 @media only screen and (min-width: 1200px) {
   .xl {background: pink; display: block;}
   body { 
-    background-image: url("/src/img/maria&rob.jpeg"); 
+    background-image: url("/src/img/maria&rob.png"); 
     background-size: cover;
   }
 }
@@ -79,63 +79,6 @@ button {
 a {
   color: #CDA14A;
 }
-
-.designsection {
-  /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
-  background-image: url("/src/img/maria&rob.jpeg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-  position: absolute;
-  width: 100vw; */
-  /* border: 3px solid #CDA14A; */
-  /* padding-top: 6vh; */
-  padding-bottom: 10vh;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-
-.designsectionlarge {
-  /* background-image: url("/src/img/maria&rob.jpeg");
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  position: absolute;
-  width: 100vw;
-  border: 3px solid #CDA14A; */
-  /* padding-top: 6vh; */
-  padding-bottom: 10vh;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
- 
-.designsectionhuge {
-  /*background-image: url("/src/img/maria&rob.jpeg");
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1496661415325-ef852f9e8e7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  position: absolute;
-  width: 100vw;
-  border: 3px solid #CDA14A;*/
-  /* padding-top: 6vh; */
-  padding-bottom: 10vh;
-  padding-left: 2vw;
-  padding-right: 2vw;
-} 
 
 .textcontent{
   position: relative;
@@ -199,23 +142,48 @@ a {
   text-align: center;
 }
 
-.bg-image {
-  /* The image used */
-  background-image: url("/src/img/maria&rob.jpeg");
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bg-text-centered {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #CDA14A;
+  position: relative;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+  width: 95%;
+  padding: 20px;
+  text-align: center;
 }
 
+.bg-text-details {
+  transform: translate(-50%, 180%);
+}
+
+.bg-image {
+  /* The image used */
+  /* background-image: url("/src/img/maria&rob.png"); */
+
+  /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+#map{
+  height: 120vh;
+  width: 100vw;
+  margin: auto;
+}
 
 * {
   box-sizing: border-box;

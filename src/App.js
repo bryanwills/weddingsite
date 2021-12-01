@@ -8,6 +8,8 @@ import Rsvp from './components/RSVP/RSVP';
 import Details from './components/Details/Details';
 import Navibar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { createMap } from "maplibre-gl-js-amplify";
+import "maplibre-gl/dist/maplibre-gl.css";
 
 function App() {
   return (

@@ -1,12 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import {Map} from "../Map/Map";
 import { Accordion } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Image } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
+import Map from '../../components/Map/Map';
+import { createMap } from "maplibre-gl-js-amplify";
+
+const INITIAL_VIEWPORT = {
+  longitude: 11.2404,
+  latitude: 74.2110
+}
 
 const Location = () => {
   const { t } = useTranslation();
+  const [map, setMap] = useState();
+
+  useEffect(() =>{
+    const initializeMap = async () => {
+      const map = await createMap({
+        container: "map",
+        center: [INITIAL_VIEWPORT.longitude, INITIAL_VIEWPORT.latitude],
+        zoom: 13,
+      })
+      setMap(map);
+    };
+    initializeMap();
+  },[]);
+
     return (
       <div className="" id="home">
           <div className="bg-text">
@@ -16,7 +37,8 @@ const Location = () => {
               {t("location.main2")}<br/>
             </div>
             <div className="header">
-              <Image src="img/location.png" fluid/><br/>
+              {/* <Image src="img/location.png" fluid/><br/> */}
+              <Map myMap={map}/>
             </div>
               <Accordion>
                 <Accordion.Item eventKey="0">
