@@ -6,9 +6,8 @@ import { Card } from 'react-bootstrap';
   const Faq = () => {
     const { t } = useTranslation();
     return (
-      <div className="designsectionhuge" id="faq">
-        <Card>
-        <div className="textcontent">
+      <div className="" id="faq">
+        <div className="bg-text">
         <Card.Body>
           <Card.Text>
           <div className="header">
@@ -27,7 +26,7 @@ import { Card } from 'react-bootstrap';
             <br/><h3>{t("faq.q5")}</h3>
             {t("faq.a5")}
             <br/><h3>{t("faq.q6")}</h3>
-            {t("faq.6")}
+            {t("faq.a6")}
             <br/><h3>{t("faq.q7")}</h3>
             {t("faq.a7")} 
             <br/><h3>{t("faq.q8")}</h3>
@@ -51,7 +50,6 @@ import { Card } from 'react-bootstrap';
           </Card.Text>
         </Card.Body>
         </div>
-        </Card>
     </div>
     );
   };

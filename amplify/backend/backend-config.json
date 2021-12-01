@@ -23,5 +23,15 @@
         ]
       }
     }
+  },
+  "geo": {
+    "santamarta": {
+      "isDefault": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "mapStyle": "VectorEsriStreets",
+      "pricingPlan": "RequestBasedUsage",
+      "accessType": "AuthorizedAndGuestUsers"
+    }
   }
 }

@@ -5,17 +5,14 @@ import { Card } from 'react-bootstrap';
 const Details = () => {
   const { t } = useTranslation();
   return (
-    <div className="designsection" id="details">
-        <Card>
-        <div className="textcontent">
+    <div className="" id="details">
+        <div className="bg-text">
         <Card.Body>
-            <Card.Title>Nov 30th 2021:</Card.Title>
             <Card.Text>
             {t("details.main")}
             </Card.Text>
         </Card.Body>
         </div>
-        </Card>
     </div>
   );
 };

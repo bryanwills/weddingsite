@@ -8,56 +8,58 @@ import { Card } from 'react-bootstrap';
 const Location = () => {
   const { t } = useTranslation();
     return (
-      <div className="designsectionhuge" id="home">
-        <Card>
-          <div className="textcontent">
+      <div className="" id="home">
+          <div className="bg-text">
           <Card.Body>
             <div className="header">
               {t("location.main")}<br/>
+              {t("location.main2")}<br/>
+            </div>
+            <div className="header">
               <Image src="img/location.png" fluid/><br/>
             </div>
               <Accordion>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>Bello Horizonte</Accordion.Header>
+                  <Accordion.Header><b>Bello Horizonte</b></Accordion.Header>
                   <Accordion.Body>
-                  <Image src="img/bellohorizante.png" fluid/><br/>
+                  <div className="header"><Image src="img/bellohorizante.png" fluid/><br/></div>
                     {t("location.belo.main")}
                     <br/>
                     <br/>
                     {t("location.belo.hotel_labels")}<br/>
-                    {t("location.belo.zuana")} 
-                    {t("location.belo.irotama")},
-                    {t("location.belo.marriott")},
-                    {t("location.belo.sintana")}
+                    <br/>
+                    <a href="https://www.zuana.com/">{t("location.belo.zuana")}</a>,<br/>
+                    <a href="https://www.irotama.com/">{t("location.belo.irotama")}</a>,<br/>
+                    <a href="https://www.marriott.com/hotels/travel/smrmc-santa-marta-marriott-resort-playa-dormida/?gclid=Cj0KCQiAtJeNBhCVARIsANJUJ2EfybDkiPmehueu7lRkMyGxCcaZMXu43Qknnalc0aejwXxzTkuP2o4aAlN3EALw_wcB&gclsrc=aw.ds">{t("location.belo.marriott")}</a>,<br/>
+                    <a href="https://planetofhotels.com/en/colombia/santa-marta/apartamento-en-sintana-resort">{t("location.belo.sintana")}</a><br/>
                     {/* <Map/> */}
                     <br/>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                  <Accordion.Header>Pozos Colorados</Accordion.Header>
+                  <Accordion.Header><b>Pozos Colorados</b></Accordion.Header>
                   <Accordion.Body>
-                  <Image src="img/pozos.png" fluid/><br/>
+                  <div className="header"><Image src="img/pozos.png" fluid/><br/></div>
                     {t("location.pozo.main")}
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                  <Accordion.Header>El Rodadero</Accordion.Header>
+                  <Accordion.Header><b>El Rodadero</b></Accordion.Header>
                   <Accordion.Body>
-                  <Image src="img/El_Rodadero.jpg" fluid/><br/>
+                  <div className="header"><Image src="img/El_Rodadero.jpg" fluid/><br/></div>
                     {t("location.elro.main")}
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
-                  <Accordion.Header>Santa Marta {t("location.sant.santa")}</Accordion.Header>
+                  <Accordion.Header><b>Santa Marta {t("location.sant.santa")}</b></Accordion.Header>
                   <Accordion.Body>
-                    <Image src="img/santamarta1.png" fluid/><br/>
+                  <div className="header"><Image src="img/santamarta1.png" fluid/><br/></div>
                     {t("location.sant.main")}
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
             </Card.Body>
           </div>
-        </Card>
     </div>
     );
   };

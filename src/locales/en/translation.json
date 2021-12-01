@@ -1,6 +1,7 @@
 {
   "select_language": "Select Language",
   "menu_items":{
+    "home":"Home",
     "rsvp":"RSVP",
     "dress_code":"Dress Code",
     "details":"Details",
@@ -10,7 +11,13 @@
   "home":{
     "ceremony":"Ceremony",
     "reception":"Reception",
-    "main":"The day has finally come to cordially invite our family and friends to our wedding ceremony and celebration of love. We truly wish that both sides of our family and friends can unite and share this special moment with us. We know that the journey may be far, but we believe that a good vacation is needed and deserved by everyone after these crazy times we have been living through. We will take all the necessary precautions during this pandemic, and hopefully this celebration of love can bring everyone together after being apart for so long."
+    "main":"The day has finally come to cordially invite our family and friends to our wedding ceremony and celebration of love. We truly wish that both sides of our family and friends can unite and share this special moment with us. We know that the journey may be far, but we believe that a good vacation is needed and deserved by everyone after these crazy times we have been living through. We will take all the necessary precautions during this pandemic, and hopefully this celebration of love can bring everyone together after being apart for so long.",
+    "main2":"Small town Rob and fiery Latina Maria met back in 2018 when she was recovering from a knee surgery that left her so bored, she decided to join Bumble. From then, the rest became history. After a very exciting first date, Maria and Rob became inseparable. Together they discovered their mutual love for animals, delicious food, and board games.",
+    "main3":"Fast forward to the end of 2020, one crazy year for everyone, and after asking Maria’s mom and grandpa for her hand in marriage, Rob popped the question and asked Maria to join him in their life adventure together. Now, four years later, with a house renovation in place, two new four-legged children, new careers, and a wedding celebration in the works, we are filled with joy to share this special time in our lives with all of you.",
+    "main4":"Don’t forget your dancing shoes!",
+    "withlove":"With love,",
+    "who":"Rob, Maria, Ariel, Rosita, and Willow",
+    "covid":"Because we love and care for each of you, Your health and safety are a priority for us.  We respectfully request that our guests are fully vaccinated until the pandemic is declared over."
   },
   "countdown":{
     "days":"days",
@@ -19,12 +26,15 @@
     "date":"December 28th, 2022"
   },
   "rsvp":{
-    "main":"Don’t forget to RSVP before ________ by contacting our wedding planner.",
+    "main":"Don’t forget to RSVP before September 28th 2022 by contacting our wedding planner.",
     "secondary":"Please include any dietary restrictions, allergies, plus one, and any song request.",
     "wedding_planner_info":"Wedding Planner Contact Info:"
   },
   "dress_code":{
-    "main":"We would love if everyone could adhere to white with the attire. Think Dîner en Blanc meets guayabera."
+    "main":"We would love if everyone could adhere to white with the attire. Think ",
+    "meets":" meets ",
+    "guay_link":"Guayabera.",
+    "din_blanc_link":" Dîner en Blanc"
   },
   "details":{
     "main":"Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates."
@@ -60,7 +70,8 @@
     "a13":"Kids are welcome to our event. We will have a separate area set up for children to spend time at so that you can enjoy the day without having to be concerned. There will be a couple of locals on site looking after them and providing them with entertainment throughout the night."
   },
   "location":{
-    "main":"There are four areas of town we recommend for you to stay in. Each one of them offers something different, depending on what you’re most interest. We will explain more below.",
+    "main":"There are four areas of town we recommend for you to stay in.",
+    "main2":"Each one of them offers something different, depending on what you’re most interest. We will explain more below.",
     "belo":{
       "main":"It’s the closest area to the airport and wedding venue. It’s the farthest from downtown Santa Marta (approx. 25-minute car ride) and it is also the quietest part of town when it comes to nightlife and entertainment. It does have the nicer beaches and best hotels. There are also plenty of rental options in this area as well – this is where the groom and bride will be staying.",
       "hotel_labels":"Recommended hotels:",

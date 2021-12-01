@@ -7,18 +7,17 @@ import ImageListItem from '@mui/material/ImageListItem';
 const DressCode = () => {
   const { t } = useTranslation();
     return (
-      <div className="designsectionlarge" id="dresscode">
-          <Card>
-          <div className="textcontent">
+      <div className="" id="dresscode">
+          <div className="bg-text">
           <Card.Body>
-            <Card.Title>{t("dress_code.main")}</Card.Title>
+            <Card.Title>{t("dress_code.main")} <a href="https://en.wikipedia.org/wiki/D%C3%AEner_en_Blanc">{t("dress_code.din_blanc_link")}</a>{t("dress_code.meets")}<a href="https://en.wikipedia.org/wiki/Guayabera">{t("dress_code.guay_link")}</a></Card.Title>
             <br/>
-            <ImageList cols={3} rowHeight={250}>
+            <ImageList cols={1} rowHeight={400}>
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
                 <img
-                  src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                  srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                  src={`${item.img}?w=150&h=150&fit=crop&auto=format`}
+                  srcSet={`${item.img}?w=150&h=150&fit=crop&auto=format&dpr=2 2x`}
                   alt={item.title}
                   loading="lazy"
                 />
@@ -27,7 +26,6 @@ const DressCode = () => {
              </ImageList>
           </Card.Body>
           </div>
-        </Card>
       </div>   
     );
   }

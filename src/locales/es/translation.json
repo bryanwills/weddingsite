@@ -1,6 +1,7 @@
 {
   "select_language": "Seleccione el Idioma",
   "menu_items": {
+    "home":"Home",
     "rsvp": "RSVP",
     "dress_code": "Código de Vestimenta",
     "details": "Detalles",
@@ -10,8 +11,14 @@
   "home": {
     "ceremony": "Ceremonia",
     "reception": "Recepción",
-    "main": "Por fin ha llegado el momento de invitar cordialmente a nuestra familia y amigos a nuestra ceremonia de matrimonio y celebración de amor. Realmente deseamos que ambos lados de nuestra familia y amigos puedan unirse y compartir este momento especial con nosotros. Sabemos que el viaje puede ser lejano, pero creemos que unas buenas vacaciones son necesarias y merecidas por todos después de estos tiempos tan impredecibles que hemos vivido. Tomaremos todas las precauciones necesarias durante esta pandemia y con mucha esperanza, esta celebración del amor podrá unirnos a todos después de haber estado separados durante tanto tiempo."
-  },
+    "main": "Por fin ha llegado el momento de invitar cordialmente a nuestra familia y amigos a nuestra ceremonia de matrimonio y celebración de amor. Realmente deseamos que ambos lados de nuestra familia y amigos puedan unirse y compartir este momento especial con nosotros. Sabemos que el viaje puede ser lejano, pero creemos que unas buenas vacaciones son necesarias y merecidas por todos después de estos tiempos tan impredecibles que hemos vivido. Tomaremos todas las precauciones necesarias durante esta pandemia y con mucha esperanza, esta celebración del amor podrá unirnos a todos después de haber estado separados durante tanto tiempo.",
+    "main2":"Rob y María del Mar se conocieron en el 2017 cuando María del Mar se estaba recuperando de una cirugía de rodilla que la tenia tan aburrida que decidió unirse a Bumble. A partir de ese momento, el resto fue historia. Después de una primera cita muy emocionante, María del Mar y Rob se volvieron inseparables. Juntos descubrieron su amor mutuo por animales, viajes, la buena comida y juegos de mesa.",
+    "main3":"El tiempo pasó y al final del 2020, un año muy desafiante, y después de pedirle a la mamá y el abuelo de María del Mar su mano en matrimonio, Rob se puso de rodillas y le pidió a María del Mar que lo acompañara a su lado por el resto de sus días. Ahora, cuatro anos después, con una renovación encima, dos nuevas hijas perrunas, nuevas profesiones y una celebración de matrimonio en proceso de construcción, nos llena de mucha felicidad compartir este momento tan especial en nuestras vidas con todos ustedes.",
+    "main4":"¡No olvides los zapatos para bailar toda la noche!",
+    "withlove":"Con amor,",
+    "who":"Rob, Maria, Ariel, Rosita, and Willow",
+    "covid":"Porque los amamos y nos preocupamos por cada uno de ustedes, Tu salud y seguridad son nuestra prioridad.  Con mucho respeto pedimos que nuestros invitados estén completamente vacunados hasta que la pandemia haya sido resuelta"
+},
   "countdown": {
     "days": "días",
     "until": "restantes",
@@ -19,12 +26,15 @@
     "date": "Diciembre 28 del 2022"
   },
   "rsvp": {
-    "main": "No olvides confirmar tu asistencia antes de Octubre 28 del 2022, comunicándote con nuestra organizador de bodas.",
+    "main": "No olvides confirmar tu asistencia antes de Septiembre 28 del 2022, comunicándote con nuestra organizador de bodas.",
     "secondary": "Por favor incluye las restricciones de dietas, alergias, y también una solicitud de canción.",
     "wedding_planner_info": "Información de contacto de nuestra organizador de bodas:"
   },
   "dress_code": {
-    "main": "Nos encantaría que nuestros invitados asistiesen en blanco. Imagínate una mezcla entre Dîner en Blanc con guayabera."
+    "main": "Nos encantaría que nuestros invitados asistiesen en blanco. Imagínate una mezcla entre ",
+    "meets":" con ",
+    "guay_link":"Guayabera.",
+    "din_blanc_link":" Dîner en Blanc"
   },
   "details": {
     "main": "María y Rob estarán en Santa Marta unos días antes del gran día para ultimar detalles, pasar tiempo con familiares cercanos y adaptar Rob al calor jajaja. Proporcionaremos más detalles sobre los eventos previos y/o posteriores a la boda en esta pestaña. Vuelve a revisar pronto para ver actualizaciones."
@@ -60,7 +70,8 @@
     "a13": "Los niños son bienvenidos a nuestro evento. Tendremos un área separada para que los niños con el fin de que los padres puedan disfrutar del día sin tener que preocuparse. Tendremos dos jóvenes locales que cuidaran y entretendrán a los pequeños."
   },
   "location": {
-    "main": "Hay cuatro zonas de la ciudad en las que te recomendamos que te alojes. Cada una de ellas ofrece algo diferente según lo que más te interese. Explicaremos más a continuación.",
+    "main": "Hay cuatro zonas de la ciudad en las que te recomendamos que te alojes.",
+    "main2":"Cada una de ellas ofrece algo diferente según lo que más te interese. Explicaremos más a continuación.",
     "belo": {
       "main": "Es el área más cercana al aeropuerto y al lugar de la boda. Es el más alejado del centro de Santa Marta (aproximadamente 25 minutos en automóvil) y también es la parte más tranquila de la ciudad en lo que respecta a la vida nocturna y el entretenimiento. Tiene las mejores playas y los mejores hoteles. También hay muchas opciones de alquiler en esta área, aquí es donde se hospedarán el novio y la novia.",
       "hotel_labels": "Hoteles recomendados:",

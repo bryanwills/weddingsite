@@ -6,19 +6,51 @@ import { Card } from 'react-bootstrap';
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div className="designsection" id="home">
-        <Card>
-        <div className="textcontent">
-        <Card.Body>
-            <Card.Title><Countdown/></Card.Title>
-            <Card.Text>
-              {t("home.ceremony")}: <a href="https://mamancana.co/en/">Mamancana</a> 4:00pm<br/>
-              {t("home.reception")}: <a href="https://mamancana.co/en/">Mamancana</a> 6:00pm
-            </Card.Text>
-        </Card.Body>
-        </div>
-        </Card>
+    <div className="">
+      <div className="bg-text">
+                    <img
+                      alt=""
+                      src="img/Pets_White_long.png"
+                      className="imgheader"
+                    />
+                    <Countdown/>
+                    <br/>
+                    {t("home.ceremony")}: <a href="https://mamancana.co/en/">Mamancana</a> 4:00pm<br/>
+                    {t("home.reception")}: <a href="https://mamancana.co/en/">Mamancana</a> 6:00pm
+                    <br/>
+                    {t("home.main")}
+                    <br/><br/>
+                    {t("home.main2")}
+      </div>
     </div>
+    // <div>
+    //   <div className="designsectionlarge" id="home">
+    //       <Card>
+    //       <div className="centered">
+    //       <Card.Body>
+    //             <div className="bg-text">
+    //               <img
+    //                 alt=""
+    //                 src="img/Pets_White_long.png"
+    //                 className="imgheader"
+    //               />
+    //               <Card.Title><Countdown/></Card.Title>
+    //               <br/>
+    //               <Card.Text>
+    //                 {t("home.ceremony")}: <a href="https://mamancana.co/en/">Mamancana</a> 4:00pm<br/>
+    //                 {t("home.reception")}: <a href="https://mamancana.co/en/">Mamancana</a> 6:00pm
+    //               </Card.Text>
+    //               <br/>
+    //               {t("home.main")}
+    //               <br/><br/>
+    //               {t("home.main2")}
+                  
+    //             </div>
+    //       </Card.Body>
+    //       </div>
+    //       </Card>
+    //   </div>
+    // </div>
   );
 };
 export default Home;

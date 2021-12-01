@@ -5,9 +5,8 @@ import { Card } from 'react-bootstrap';
  const Rsvp = () => {
     const { t } = useTranslation();
     return (
-        <div className="designsection" id="rsvp">
-            <Card>
-            <div className="textcontent">
+        <div className="" id="rsvp">
+            <div className="bg-text">
             <Card.Body>
                 <Card.Title>{t("rsvp.main")}</Card.Title>
                 <Card.Text>
@@ -21,7 +20,6 @@ import { Card } from 'react-bootstrap';
                 {/* <Card.Img variant="top" src="img/Pets_Black.png" width="90px"/> */}
             </Card.Body>
             </div>
-            </Card>
         </div>
       );
   };
