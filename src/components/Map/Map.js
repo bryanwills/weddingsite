@@ -23,7 +23,7 @@ function Map() {
         });
       }
     }
-    // initializeMap();
+    initializeMap();
 
     // Cleans up and maplibre DOM elements and other resources - https://maplibre.org/maplibre-gl-js-docs/api/map/#map#remove
     return function cleanup() {
