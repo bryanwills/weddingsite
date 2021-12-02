@@ -4,7 +4,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 
 const INITIAL_VIEWPORT = {
   longitude: 11.2404,
-  latitude: 74.2110
+  latitude: -74.2110
 }
 
 function Map() {
@@ -31,7 +31,7 @@ function Map() {
     };
   }, []);
 
-  return <div ref={mapRef} id="map" />;
+  return <div ref={mapRef} className="map" id="map" />;
 }
 
 export default Map;
