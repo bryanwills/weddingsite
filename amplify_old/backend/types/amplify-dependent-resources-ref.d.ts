@@ -1,6 +1,6 @@
 export type AmplifyDependentResourcesAttributes = {
     "auth": {
-        "weddingwebsitee2f290fa": {
+        "weddingsited33ce547": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
@@ -11,7 +11,19 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "geo": {
-        "weddingwebsitemapsantamarta": {
+        "santamarta": {
+            "Name": "string",
+            "Style": "string",
+            "Region": "string",
+            "Arn": "string"
+        },
+        "mapfbdac682": {
+            "Name": "string",
+            "Style": "string",
+            "Region": "string",
+            "Arn": "string"
+        },
+        "weddingmap": {
             "Name": "string",
             "Style": "string",
             "Region": "string",

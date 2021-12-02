@@ -1,0 +1,12 @@
+{
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "mapName": "mapfbdac682",
+  "mapStyle": "VectorEsriNavigation",
+  "pricingPlan": "RequestBasedUsage",
+  "isDefault": false
+}

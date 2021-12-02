@@ -1,0 +1,12 @@
+{
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "mapName": "santamarta",
+  "mapStyle": "VectorEsriStreets",
+  "pricingPlan": "RequestBasedUsage",
+  "isDefault": false
+}

@@ -1,0 +1,119 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-weddingsite-prod-185143-authRole",
+      "UnauthRoleArn": "arn:aws:iam::181665328311:role/amplify-weddingsite-prod-185143-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::181665328311:role/amplify-weddingsite-prod-185143-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-weddingsite-prod-185143-deployment",
+      "UnauthRoleName": "amplify-weddingsite-prod-185143-unauthRole",
+      "StackName": "amplify-weddingsite-prod-185143",
+      "StackId": "arn:aws:cloudformation:us-east-1:181665328311:stack/amplify-weddingsite-prod-185143/c9fbf2f0-531a-11ec-9f93-1249701c5f15",
+      "AmplifyAppId": "d7v5ortwpw0k7"
+    }
+  },
+  "auth": {
+    "weddingsited33ce547": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": []
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingsite-prod-185143-deployment/amplify-cfn-templates/auth/weddingsited33ce547-cloudformation-template.yml",
+        "logicalId": "authweddingsited33ce547"
+      },
+      "lastPushTimeStamp": "2021-12-02T03:05:44.525Z",
+      "output": {
+        "UserPoolId": "us-east-1_cToayHmOm",
+        "AppClientIDWeb": "42kqftlr3ju0oobf16ncjeq5o5",
+        "AppClientID": "55jaaurfgb9q6l49kqrqtii70i",
+        "IdentityPoolId": "us-east-1:e40af4c7-1afc-4ac5-83cf-cc435ef8507e",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:181665328311:userpool/us-east-1_cToayHmOm",
+        "IdentityPoolName": "weddingsited33ce547_identitypool_d33ce547__prod",
+        "UserPoolName": "weddingsited33ce547_userpool_d33ce547"
+      },
+      "lastPushDirHash": "eetIyCyuFGbeRLx/d6SQ7X5TlZ0="
+    }
+  },
+  "geo": {
+    "santamarta": {
+      "isDefault": false,
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "mapStyle": "VectorEsriStreets",
+      "pricingPlan": "RequestBasedUsage",
+      "accessType": "AuthorizedAndGuestUsers",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingsite-prod-185143-deployment/amplify-cfn-templates/geo/santamarta-cloudformation-template.json",
+        "logicalId": "geosantamarta"
+      },
+      "lastPushTimeStamp": "2021-12-02T03:05:44.529Z",
+      "output": {
+        "Style": "VectorEsriStreets",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:geo:us-east-1:181665328311:map/santamarta-prod",
+        "Name": "santamarta-prod"
+      },
+      "lastPushDirHash": "xJG8NskGOkMLtGCBTyXeItswgpk="
+    },
+    "mapfbdac682": {
+      "isDefault": false,
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "mapStyle": "VectorEsriNavigation",
+      "pricingPlan": "RequestBasedUsage",
+      "accessType": "AuthorizedAndGuestUsers",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingsite-prod-185143-deployment/amplify-cfn-templates/geo/mapfbdac682-cloudformation-template.json",
+        "logicalId": "geomapfbdac682"
+      },
+      "lastPushTimeStamp": "2021-12-02T03:05:44.548Z",
+      "output": {
+        "Style": "VectorEsriNavigation",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:geo:us-east-1:181665328311:map/mapfbdac682-prod",
+        "Name": "mapfbdac682-prod"
+      },
+      "lastPushDirHash": "t1pF6v+ituJtN6j/wAUoj9hl5qQ="
+    },
+    "weddingmap": {
+      "isDefault": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "mapStyle": "VectorEsriNavigation",
+      "pricingPlan": "RequestBasedUsage",
+      "accessType": "AuthorizedAndGuestUsers",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weddingsite-prod-185143-deployment/amplify-cfn-templates/geo/weddingmap-cloudformation-template.json",
+        "logicalId": "geoweddingmap"
+      },
+      "lastPushTimeStamp": "2021-12-02T03:05:44.548Z",
+      "output": {
+        "Style": "VectorEsriNavigation",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:geo:us-east-1:181665328311:map/weddingmap-prod",
+        "Name": "weddingmap-prod"
+      },
+      "lastPushDirHash": "7Jcj0kp/z3uqfZRnR7zJHO1cxq4="
+    }
+  }
+}

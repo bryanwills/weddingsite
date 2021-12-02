@@ -1,0 +1,10 @@
+{
+  "staging": {
+    "configLevel": "amplifyAdmin"
+  },
+  "prod": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/Users/roblittle/.amplify/awscloudformation/eJp7AVrgid"
+  }
+}

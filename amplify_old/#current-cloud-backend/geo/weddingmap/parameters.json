@@ -5,7 +5,7 @@
   "unauthRoleName": {
     "Ref": "UnauthRoleName"
   },
-  "mapName": "mapfbdac682",
+  "mapName": "weddingmap",
   "mapStyle": "VectorEsriNavigation",
   "pricingPlan": "RequestBasedUsage",
   "isDefault": true

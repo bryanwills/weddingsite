@@ -1,19 +1,20 @@
 {
-  "staging": {
+  "prod": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplify20ff072720954-staging-190223-authRole",
-      "UnauthRoleArn": "arn:aws:iam::181665328311:role/amplify-amplify20ff072720954-staging-190223-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::181665328311:role/amplify-amplify20ff072720954-staging-190223-authRole",
-      "Region": "ca-central-1",
-      "DeploymentBucketName": "amplify-amplify20ff072720954-staging-190223-deployment",
-      "UnauthRoleName": "amplify-amplify20ff072720954-staging-190223-unauthRole",
-      "StackName": "amplify-amplify20ff072720954-staging-190223",
-      "StackId": "arn:aws:cloudformation:ca-central-1:181665328311:stack/amplify-amplify20ff072720954-staging-190223/1e0237f0-1e33-11ec-9c36-0203d0efe0f8",
-      "AmplifyAppId": "d2d0cw1un58gm0"
+      "AuthRoleName": "amplify-weddingwebsite-prod-191056-authRole",
+      "UnauthRoleArn": "arn:aws:iam::181665328311:role/amplify-weddingwebsite-prod-191056-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::181665328311:role/amplify-weddingwebsite-prod-191056-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-weddingwebsite-prod-191056-deployment",
+      "UnauthRoleName": "amplify-weddingwebsite-prod-191056-unauthRole",
+      "StackName": "amplify-weddingwebsite-prod-191056",
+      "StackId": "arn:aws:cloudformation:us-east-1:181665328311:stack/amplify-weddingwebsite-prod-191056/792cd120-531d-11ec-b3e8-0a7e59e04d9f",
+      "AmplifyAppId": "d1uwlcg41fkhzo"
     },
     "categories": {
       "auth": {
-        "weddingsited33ce547": {}
+        "weddingwebsitee2f290fa": {},
+        "true": {}
       }
     }
   }
