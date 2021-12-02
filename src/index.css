@@ -155,7 +155,7 @@ a {
   position: relative;
   top: 55%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 15%);
   z-index: 2;
   width: 95%;
   padding: 20px;
