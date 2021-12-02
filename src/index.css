@@ -29,8 +29,8 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .xs {background: red; display: block; }
-  body { background-image: url("/src/img/maria&rob.png"); 
-    background-size: 600px;
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
   } 
@@ -39,22 +39,22 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .sm {background: green; display: block; }
-  body { background-image: url("/src/img/maria&rob.png"); 
-    background-size: 768px;}
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .md { background: blue; display: block; }
-  body { background-image: url("/src/img/maria&rob.png"); 
-    background-size: 992px;}
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .lg {background: orange; display: block;}
-  body { background-image: url("/src/img/maria&rob.png"); 
-    background-size: 1200px;}
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;}
 
 } 
 

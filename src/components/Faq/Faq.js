@@ -18,7 +18,7 @@ import { Card } from 'react-bootstrap';
             <br/>
             <br/><h3>{t("faq.q1")}</h3>
             {t("faq.a1")}<br/>
-            <br/><h3>{t("faq.q2")}</h3>
+            <br/><h3>{t("faq.q2", {avianca:'<a href="www.avianca.com">avianca</a>'})}</h3>
             {t("faq.a2")}<br/>
             <br/><h3>{t("faq.q3")}</h3>
             {t("faq.a3")}<br/>

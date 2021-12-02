@@ -32,7 +32,7 @@ i18n
       checkWhitelist: true, // options for language detection
     },
 
-    debug: false,
+    debug: true,
 
     whitelist: availableLanguages,
 
