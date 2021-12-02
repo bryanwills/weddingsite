@@ -14,39 +14,44 @@ import { Card } from 'react-bootstrap';
           <h1 >{t("faq.gen")}</h1>
           <Image src="/img/santamarta.png" fluid/>
           </div>
+          <div className="lefted">
             <br/>
             <br/><h3>{t("faq.q1")}</h3>
-            {t("faq.a1")}
+            {t("faq.a1")}<br/>
             <br/><h3>{t("faq.q2")}</h3>
-            {t("faq.a2")}
+            {t("faq.a2")}<br/>
             <br/><h3>{t("faq.q3")}</h3>
-            {t("faq.a3")}
+            {t("faq.a3")}<br/>
             <br/><h3>{t("faq.q4")}</h3>
-            {t("faq.a4")}
+            {t("faq.a4")}<br/>
             <br/><h3>{t("faq.q5")}</h3>
-            {t("faq.a5")}
+            {t("faq.a5")}<br/>
             <br/><h3>{t("faq.q6")}</h3>
-            {t("faq.a6")}
+            {t("faq.a6")}<br/>
             <br/><h3>{t("faq.q7")}</h3>
-            {t("faq.a7")} 
+            {t("faq.a7")}<br/>
             <br/><h3>{t("faq.q8")}</h3>
-            {t("faq.a8")}
+            {t("faq.a8")}<br/>
             <br/>
+          </div>
+          <div className="lefted">
             <hr/>
             <div className="header">
             <h1 className="header">{t("faq.wed")}</h1>
             <Image src="/img/mamancana.png" fluid/>
             </div>
             <br/><h3>{t("faq.q9")}</h3>
-            {t("faq.a9")}
+            {t("faq.a9")}<br/>
             <br/><h3>{t("faq.q10")}</h3>
-            {t("faq.a10")}
+            {t("faq.a10")}<br/>
             <br/><h3>{t("faq.q11")}</h3>
-            {t("faq.a11")}
+            {t("faq.a11")}<br/>
             <br/><h3>{t("faq.q12")}</h3>
-            {t("faq.a12")}
+            {t("faq.a12")}<br/>
             <br/><h3>{t("faq.q13")}</h3>
-            {t("faq.a13")}
+            {t("faq.a13")}<br/>
+            <br/>
+            </div>
           </Card.Text>
         </Card.Body>
         </div>

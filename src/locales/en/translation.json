@@ -16,8 +16,7 @@
     "main3":"Fast forward to the end of 2020, one crazy year for everyone, and after asking Maria’s mom and grandpa for her hand in marriage, Rob popped the question and asked Maria to join him in their life adventure together. Now, four years later, with a house renovation in place, two new four-legged children, new careers, and a wedding celebration in the works, we are filled with joy to share this special time in our lives with all of you.",
     "main4":"Don’t forget your dancing shoes!",
     "withlove":"With love,",
-    "who":"Rob, Maria, Ariel, Rosita, and Willow",
-    "covid":"Because we love and care for each of you, Your health and safety are a priority for us.  We respectfully request that our guests are fully vaccinated until the pandemic is declared over."
+    "who":"Rob, Maria, Ariel, Rosita, and Willow"
   },
   "countdown":{
     "days":"days",
@@ -37,7 +36,8 @@
     "din_blanc_link":" Dîner en Blanc"
   },
   "details":{
-    "main":"Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates."
+    "main":"Maria and Rob will be in Santa Marta a few days prior to the wedding date in order to finish last-minute details, spend time with close family, and adjust to the heat. We will be providing more details regarding events pre and/or post wedding on this tab. Please check later for updates.",
+    "covid":"Because we love and care for each of you, Your health and safety are a priority for us.  We respectfully request that our guests are fully vaccinated until the pandemic is declared over."
   },
   "faq":{
     "gen":"GENERAL QUESTIONS",

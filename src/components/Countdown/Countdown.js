@@ -15,9 +15,8 @@ const Countdown = () => {
         <div className="countdowntitle">
           {days} {t("countdown.days")}<br/>
         </div>
-          <br/>
-          <span id="until"> {t("countdown.until")} </span>
-          <span id="ido">{t("countdown.announce")}</span><br/>
+          <span id="until" className="bigger"> {t("countdown.until")} </span>
+          <span id="ido" className="bigger" >{t("countdown.announce")}</span><br/>
           <span id="ido">{t("countdown.date")}!</span>
       </div>
     );

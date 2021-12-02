@@ -15,43 +15,28 @@ const Home = () => {
                     />
                     <Countdown/>
                     <br/>
-                    {t("home.ceremony")}:  Mamancana - 4:00pm<br/>
-                    {t("home.reception")}: Mamancana - 6:00pm<br/><br/><br/>
+                    {t("home.ceremony")}<br/>
+                    04:00pm<br/>
+                    Mamancana<br/><br/>
+                    {t("home.reception")}<br/>
+                    06:00pm<br/>
+                    Mamancana<br/><br/>
                     <br/>
                     {t("home.main")}
                     <br/><br/>
                     {t("home.main2")}
+                    <br/><br/>
+                    {t("home.main3")}
+                    <br/><br/>
+                    {t("home.main4")}
+                    <br/><br/>
+                    <div className="signoff">
+                    {t("home.withlove")} <br/>
                     <br/>
+                    {t("home.who")}
+                    </div>                    
       </div>
     </div>
-    // <div>
-    //   <div className="designsectionlarge" id="home">
-    //       <Card>
-    //       <div className="centered">
-    //       <Card.Body>
-    //             <div className="bg-text">
-    //               <img
-    //                 alt=""
-    //                 src="img/Pets_White_long.png"
-    //                 className="imgheader"
-    //               />
-    //               <Card.Title><Countdown/></Card.Title>
-    //               <br/>
-    //               <Card.Text>
-    //                 {t("home.ceremony")}: <a href="https://mamancana.co/en/">Mamancana</a> 4:00pm<br/>
-    //                 {t("home.reception")}: <a href="https://mamancana.co/en/">Mamancana</a> 6:00pm
-    //               </Card.Text>
-    //               <br/>
-    //               {t("home.main")}
-    //               <br/><br/>
-    //               {t("home.main2")}
-                  
-    //             </div>
-    //       </Card.Body>
-    //       </div>
-    //       </Card>
-    //   </div>
-    // </div>
   );
 };
 export default Home;

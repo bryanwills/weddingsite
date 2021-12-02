@@ -5,8 +5,11 @@ const Details = () => {
   const { t } = useTranslation();
   return (
     <div className="" id="details">
-        <div className="bg-text-centered bg-text-details">
+        <div className="bg-text-centered ">
             {t("details.main")}
+            <br/>
+            <br/>
+            {t("details.covid")}
         </div>
     </div>
   );

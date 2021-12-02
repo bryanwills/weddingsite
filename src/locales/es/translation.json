@@ -16,9 +16,8 @@
     "main3":"El tiempo pasó y al final del 2020, un año muy desafiante, y después de pedirle a la mamá y el abuelo de María del Mar su mano en matrimonio, Rob se puso de rodillas y le pidió a María del Mar que lo acompañara a su lado por el resto de sus días. Ahora, cuatro anos después, con una renovación encima, dos nuevas hijas perrunas, nuevas profesiones y una celebración de matrimonio en proceso de construcción, nos llena de mucha felicidad compartir este momento tan especial en nuestras vidas con todos ustedes.",
     "main4":"¡No olvides los zapatos para bailar toda la noche!",
     "withlove":"Con amor,",
-    "who":"Rob, Maria, Ariel, Rosita, and Willow",
-    "covid":"Porque los amamos y nos preocupamos por cada uno de ustedes, Tu salud y seguridad son nuestra prioridad.  Con mucho respeto pedimos que nuestros invitados estén completamente vacunados hasta que la pandemia haya sido resuelta"
-},
+    "who":"Rob, Maria, Ariel, Rosita, and Willow"
+  },
   "countdown": {
     "days": "días",
     "until": "restantes",
@@ -37,7 +36,8 @@
     "din_blanc_link":" Dîner en Blanc"
   },
   "details": {
-    "main": "María y Rob estarán en Santa Marta unos días antes del gran día para ultimar detalles, pasar tiempo con familiares cercanos y adaptar Rob al calor jajaja. Proporcionaremos más detalles sobre los eventos previos y/o posteriores a la boda en esta pestaña. Vuelve a revisar pronto para ver actualizaciones."
+    "main": "María y Rob estarán en Santa Marta unos días antes del gran día para ultimar detalles, pasar tiempo con familiares cercanos y adaptar Rob al calor jajaja. Proporcionaremos más detalles sobre los eventos previos y/o posteriores a la boda en esta pestaña. Vuelve a revisar pronto para ver actualizaciones.",
+    "covid":"Porque los amamos y nos preocupamos por cada uno de ustedes, Tu salud y seguridad son nuestra prioridad.  Con mucho respeto pedimos que nuestros invitados estén completamente vacunados hasta que la pandemia haya sido resuelta"
   },
   "faq": {
     "gen": "PREGUNTAS GENERALES",

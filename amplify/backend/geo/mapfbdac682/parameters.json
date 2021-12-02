@@ -5,8 +5,8 @@
   "unauthRoleName": {
     "Ref": "UnauthRoleName"
   },
-  "mapName": "santamarta",
-  "mapStyle": "VectorEsriStreets",
+  "mapName": "mapfbdac682",
+  "mapStyle": "VectorEsriNavigation",
   "pricingPlan": "RequestBasedUsage",
-  "isDefault": false
+  "isDefault": true
 }
