@@ -7,7 +7,7 @@ const DressCode = () => {
   const { t } = useTranslation();
     return (
       <div className="" id="dresscode">
-          <div className="bg-text">
+          <div className="bg-text-dress">
           <Card.Body>
             <Card.Title>{t("dress_code.main")} <a href="https://en.wikipedia.org/wiki/D%C3%AEner_en_Blanc">{t("dress_code.din_blanc_link")}</a>{t("dress_code.meets")}<a href="https://en.wikipedia.org/wiki/Guayabera">{t("dress_code.guay_link")}</a></Card.Title>
             <br/>
