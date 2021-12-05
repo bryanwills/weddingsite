@@ -33,7 +33,6 @@ const Location = () => {
                     <a href="https://www.irotama.com/">{t("location.belo.irotama")}</a>,<br/>
                     <a href="https://www.marriott.com/hotels/travel/smrmc-santa-marta-marriott-resort-playa-dormida/?gclid=Cj0KCQiAtJeNBhCVARIsANJUJ2EfybDkiPmehueu7lRkMyGxCcaZMXu43Qknnalc0aejwXxzTkuP2o4aAlN3EALw_wcB&gclsrc=aw.ds">{t("location.belo.marriott")}</a>,<br/>
                     <a href="https://planetofhotels.com/en/colombia/santa-marta/apartamento-en-sintana-resort">{t("location.belo.sintana")}</a><br/>
-                    {/* <Map/> */}
                     <br/>
                   </Accordion.Body>
                 </Accordion.Item>
