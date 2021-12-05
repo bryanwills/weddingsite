@@ -9,7 +9,7 @@ const Location = () => {
   const { t } = useTranslation();
     return (
       <div className="" id="home">
-          <div className="bg-text">
+          <div className="center">
           <Card.Body>
             <div className="header">
               {t("location.main")}<br/>

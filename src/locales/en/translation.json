@@ -8,15 +8,18 @@
     "faq":"FAQ",
     "where_to_stay":"Where To Stay"
   },
-  "home":{
-    "ceremony":"Ceremony",
-    "reception":"Reception",
-    "main":"The day has finally come to cordially invite our family and friends to our wedding ceremony and celebration of love. We truly wish that both sides of our family and friends can unite and share this special moment with us. We know that the journey may be far, but we believe that a good vacation is needed and deserved by everyone after these crazy times we have been living through. We will take all the necessary precautions during this pandemic, and hopefully this celebration of love can bring everyone together after being apart for so long.",
+  "about_us":{
     "main2":"Small town Rob and fiery Latina Maria met back in 2018 when she was recovering from a knee surgery that left her so bored, she decided to join Bumble. From then, the rest became history. After a very exciting first date, Maria and Rob became inseparable. Together they discovered their mutual love for animals, delicious food, and board games.",
     "main3":"Fast forward to the end of 2020, one crazy year for everyone, and after asking Maria’s mom and grandpa for her hand in marriage, Rob popped the question and asked Maria to join him in their life adventure together. Now, four years later, with a house renovation in place, two new four-legged children, new careers, and a wedding celebration in the works, we are filled with joy to share this special time in our lives with all of you.",
     "main4":"Don’t forget your dancing shoes!",
     "withlove":"With love,",
     "who":"Rob, Maria, Ariel, Rosita, and Willow",
+    "title":"Our Story"
+  },
+  "home":{
+    "ceremony":"Ceremony",
+    "reception":"Reception",
+    "main":"The day has finally come to cordially invite our family and friends to our wedding ceremony and celebration of love. We truly wish that both sides of our family and friends can unite and share this special moment with us. We know that the journey may be far, but we believe that a good vacation is needed and deserved by everyone after these crazy times we have been living through. We will take all the necessary precautions during this pandemic, and hopefully this celebration of love can bring everyone together after being apart for so long.",
     "covid":"Because we love and care for each of you, Your health and safety are a priority for us.  We respectfully request that our guests are fully vaccinated until the pandemic is declared over."
   },
   "countdown":{

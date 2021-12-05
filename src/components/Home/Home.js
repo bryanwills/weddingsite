@@ -1,5 +1,6 @@
 import React from 'react'
 import Countdown from '../Countdown/Countdown';
+import AboutUs from '../AboutUs/AboutUs';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
@@ -19,24 +20,13 @@ const Home = () => {
         Mamancana<br/><br/>
         {t("home.reception")}<br/>
         06:00pm<br/>
-        Mamancana<br/><br/>
-        <br/>
-        <br/>
-        {t("home.covid")}
+        Mamancana<br/>
         <br/><br/>
         {t("home.main")}
         <br/><br/>
-        {t("home.main2")}
-        <br/><br/>
-        {t("home.main3")}
-        <br/><br/>
-        {t("home.main4")}
-        <br/><br/>
-        <div className="signoff">
-        {t("home.withlove")} <br/>
         <br/>
-        {t("home.who")}
-        </div>                    
+        <div className="gold">{t("home.covid")}</div>
+        {/* <AboutUs/>               */}
       </div>
     </div>
   );

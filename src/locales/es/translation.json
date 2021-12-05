@@ -8,15 +8,18 @@
     "faq": "Preguntas más Frecuentes",
     "where_to_stay": "Dónde quedarse"
   },
-  "home": {
-    "ceremony": "Ceremonia",
-    "reception": "Recepción",
-    "main": "Por fin ha llegado el momento de invitar cordialmente a nuestra familia y amigos a nuestra ceremonia de matrimonio y celebración de amor. Realmente deseamos que ambos lados de nuestra familia y amigos puedan unirse y compartir este momento especial con nosotros. Sabemos que el viaje puede ser lejano, pero creemos que unas buenas vacaciones son necesarias y merecidas por todos después de estos tiempos tan impredecibles que hemos vivido. Tomaremos todas las precauciones necesarias durante esta pandemia y con mucha esperanza, esta celebración del amor podrá unirnos a todos después de haber estado separados durante tanto tiempo.",
+  "about_us":{
     "main2":"Rob y María del Mar se conocieron en el 2017 cuando María del Mar se estaba recuperando de una cirugía de rodilla que la tenia tan aburrida que decidió unirse a Bumble. A partir de ese momento, el resto fue historia. Después de una primera cita muy emocionante, María del Mar y Rob se volvieron inseparables. Juntos descubrieron su amor mutuo por animales, viajes, la buena comida y juegos de mesa.",
     "main3":"El tiempo pasó y al final del 2020, un año muy desafiante, y después de pedirle a la mamá y el abuelo de María del Mar su mano en matrimonio, Rob se puso de rodillas y le pidió a María del Mar que lo acompañara a su lado por el resto de sus días. Ahora, cuatro anos después, con una renovación encima, dos nuevas hijas perrunas, nuevas profesiones y una celebración de matrimonio en proceso de construcción, nos llena de mucha felicidad compartir este momento tan especial en nuestras vidas con todos ustedes.",
     "main4":"¡No olvides los zapatos para bailar toda la noche!",
     "withlove":"Con amor,",
     "who":"Rob, Maria, Ariel, Rosita, and Willow",
+    "title":"Nuestra Historia"
+  },
+  "home": {
+    "ceremony": "Ceremonia",
+    "reception": "Recepción",
+    "main": "Por fin ha llegado el momento de invitar cordialmente a nuestra familia y amigos a nuestra ceremonia de matrimonio y celebración de amor. Realmente deseamos que ambos lados de nuestra familia y amigos puedan unirse y compartir este momento especial con nosotros. Sabemos que el viaje puede ser lejano, pero creemos que unas buenas vacaciones son necesarias y merecidas por todos después de estos tiempos tan impredecibles que hemos vivido. Tomaremos todas las precauciones necesarias durante esta pandemia y con mucha esperanza, esta celebración del amor podrá unirnos a todos después de haber estado separados durante tanto tiempo.",
     "covid":"Porque los amamos y nos preocupamos por cada uno de ustedes, Tu salud y seguridad son nuestra prioridad.  Con mucho respeto pedimos que nuestros invitados estén completamente vacunados hasta que la pandemia haya sido resuelta"
   },
   "countdown": {

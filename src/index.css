@@ -26,47 +26,6 @@ body {
   background-size: auto;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .xs {background: red; display: block; }
-  body { background-image: url("/src/img/maria&rob_mob.png"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-  } 
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-  .sm {background: green; display: block; }
-  body { background-image: url("/src/img/maria&rob_mob.png"); 
-    background-size: cover;}
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  .md { background: blue; display: block; }
-  body { background-image: url("/src/img/maria&rob_mob.png"); 
-    background-size: cover;}
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .lg {background: orange; display: block;}
-  body { background-image: url("/src/img/maria&rob_mob.png"); 
-    background-size: cover;}
-
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .xl {background: pink; display: block;}
-  body { 
-    background-image: url("/src/img/maria&rob.png"); 
-    background-size: cover;
-  }
-}
-
 code {
   font-family: 'Raleway-Regular',source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -102,6 +61,17 @@ a {
   width: 50%;
 }
 
+.dress-img {
+  height: auto;
+  max-height: 300px;
+  width: auto;
+  max-width: 300px;
+}
+
+.dress-main-card {
+  background-color: rgba(0,0,0, 0.0); /* aka pass through to the bg-text's Black w/opacity/see-through */
+}
+
 .accordion-button{
   background-color: rgba(205,161,74, 1.0);
 }
@@ -129,6 +99,14 @@ a {
   text-align: left;
 }
 
+.gold{
+  color: #CDA14A;
+}
+
+.wide{
+    width: 95%;
+}
+
 /* Position text in the middle of the page/image */
 .bg-text {
   background-color: rgb(0,0,0); /* Fallback color */
@@ -145,6 +123,23 @@ a {
   padding: 20px;
   text-align: center;
 }
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #CDA14A;
+  padding: 10px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  z-index: 2;
+  /* width: 95%; */
+  }
 
 .bg-text-centered {
   background-color: rgb(0,0,0); /* Fallback color */
@@ -186,3 +181,78 @@ a {
   box-sizing: border-box;
 }
 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .xs {background: red; display: block; }
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  } 
+  .center{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .sm {background: green; display: block; }
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;
+  }
+  .center{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .md { background: blue; display: block; }
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .lg {background: orange; display: block;}
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;}
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .xl {background: pink; display: block;}
+  body { 
+    background-image: url("/src/img/maria&rob.png"); 
+    background-size: cover;
+  }
+}

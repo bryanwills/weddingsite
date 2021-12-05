@@ -11,22 +11,21 @@ import { Card } from 'react-bootstrap';
         <Card.Body>
           <Card.Text>
           <div className="header">
-          <h1 >{t("faq.gen")}</h1>
-          <Image src="/img/santamarta.png" fluid/>
+            <h1 >{t("faq.gen")}</h1>
+            <Image src="/img/santamarta.png" fluid/>
           </div>
           <div className="lefted">
             <br/>
-            
             <br/><h3>{t("faq.q1")}</h3>
             {t("faq.a1")}<br/>
             <br/><h3>{t("faq.q2")}</h3>
-            <Trans i18nKey="faq.a2" t={t} components={[<a href="https://www.avianca.com/" target="_blank"/>,<a href="https://www.despegar.com.co/" target="_blank"/>]} /><br/>
+            <Trans i18nKey="faq.a2" t={t} components={[<a href="https://www.avianca.com/" target="_blank" rel="noreferrer"/>,<a href="https://www.despegar.com.co/" target="_blank" rel="noreferrer"/>]} /><br/>
             <br/><h3>{t("faq.q3")}</h3>
             {t("faq.a3")}<br/>
             <br/><h3>{t("faq.q4")}</h3>
             {t("faq.a4")}<br/>
             <br/><h3>{t("faq.q5")}</h3>
-            <Trans i18nKey="faq.a5" t={t} components={[<a href="https://www.oanda.com/currency-converter" target="_blank"/>]} /><br/>
+            <Trans i18nKey="faq.a5" t={t} components={[<a href="https://www.oanda.com/currency-converter" target="_blank" rel="noreferrer"/>]} /><br/>
             <br/><h3>{t("faq.q6")}</h3>
             {t("faq.a6")}<br/>
             <br/><h3>{t("faq.q7")}</h3>
@@ -35,12 +34,12 @@ import { Card } from 'react-bootstrap';
             {t("faq.a8")}<br/>
             <br/>
           </div>
-          <div className="lefted">
-            <hr/>
-            <div className="header">
-            <h1 className="header">{t("faq.wed")}</h1>
-            <Image src="/img/mamancana.png" fluid/>
+          <hr/>
+          <div className="header">
+              <h1>{t("faq.wed")}</h1>
+              <Image src="/img/mamancana.png" fluid/>
             </div>
+          <div className="lefted">
             <br/><h3>{t("faq.q9")}</h3>
             {t("faq.a9")}<br/>
             <br/><h3>{t("faq.q10")}</h3>
