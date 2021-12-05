@@ -26,7 +26,10 @@ const Home = () => {
         <br/><br/>
         <br/>
         <div className="gold">{t("home.covid")}</div>
-        {/* <AboutUs/>               */}
+        <br/>
+        <br/>
+        <hr/>
+        <AboutUs/>              
       </div>
     </div>
   );

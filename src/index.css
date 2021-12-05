@@ -65,7 +65,16 @@ a {
   height: auto;
   max-height: 300px;
   width: auto;
-  max-width: 300px;
+  max-width: 400px;
+  padding-top: 2%
+}
+
+.dress-img-big {
+  height: auto;
+  max-height: 500px;
+  width: auto;
+  max-width: 400px;
+  padding-top:2%;
 }
 
 .dress-main-card {
@@ -197,6 +206,21 @@ a {
   box-sizing: border-box;
 }
 
+.parent {
+  display: flex;
+}
+.narrow {
+  width: 33%;
+  background: lightblue;
+  /* Just so it's visible */
+}
+.wider {
+  flex: 1;
+  width: 66%;
+  /* Grow to rest of container */
+  background: lightgreen;
+  /* Just so it's visible */
+}
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -238,6 +262,37 @@ a {
     padding: 20px;
     text-align: center;
   }
+}
+
+#wrapper {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* background-color: #ccc; */
+  
+}
+#inner {
+  width: 100%;
+}
+#left {
+  width: 25%;
+  float: left;
+  /* background-color: #f00; */
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#right {
+  width: 25%;
+  float: left;
+  /* background-color: #0f0; */
+
+}
+
+#middle {
+  width: 25%;
+  float: left;
+  /* background-color: #0f0; */
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
