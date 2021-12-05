@@ -8,8 +8,6 @@ const Details = () => {
         <div className="bg-text-centered ">
             {t("details.main")}
             <br/>
-            <br/>
-            {t("details.covid")}
         </div>
     </div>
   );

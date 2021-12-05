@@ -2,9 +2,10 @@ import { useEffect, useRef } from "react";
 import { createMap } from "maplibre-gl-js-amplify";
 import "maplibre-gl/dist/maplibre-gl.css";
 
+// Santa Marta, Colombia
 const INITIAL_VIEWPORT = {
-  longitude: 11.2404,
-  latitude: -74.2110
+  longitude: 11.24079,
+  latitude: -74.19904
 }
 
 function Map() {

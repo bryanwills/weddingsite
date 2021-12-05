@@ -21,6 +21,9 @@ const Home = () => {
         06:00pm<br/>
         Mamancana<br/><br/>
         <br/>
+        <br/>
+        {t("home.covid")}
+        <br/><br/>
         {t("home.main")}
         <br/><br/>
         {t("home.main2")}
