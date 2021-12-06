@@ -10,7 +10,6 @@ const DressCode = () => {
           <div className="bg-text-dress">
             <Card.Title>{t("dress_code.main")} <a href="https://en.wikipedia.org/wiki/D%C3%AEner_en_Blanc">{t("dress_code.din_blanc_link")}</a>{t("dress_code.meets")}<a href="https://en.wikipedia.org/wiki/Guayabera">{t("dress_code.guay_link")}</a></Card.Title>
             <br/>
-            <Card raised className="dress-main-card">
               <CardContent>
                 <img
                   src='img/white1.png'
@@ -43,7 +42,6 @@ const DressCode = () => {
                   className="dress-img"
                 />
               </CardContent>
-            </Card>
           </div>
       </div>   
     );
