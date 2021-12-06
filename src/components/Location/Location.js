@@ -17,7 +17,8 @@ const Location = () => {
             </div>
             <div className="header">
               {/* <Image src="img/location.png" fluid/><br/> */}
-              <Map/>
+              {/* <Map/> */}
+              <Map id="map"/>
             </div>
               <Accordion>
                 <Accordion.Item eventKey="0">

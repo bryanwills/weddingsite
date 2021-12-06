@@ -5,6 +5,7 @@ import Location from './components/Location/Location';
 import Home from './components/Home/Home';
 import DressCode from './components/Dresscode/Dresscode';
 import Rsvp from './components/RSVP/RSVP';
+// import Map from './components/Map/index.html'
 import Details from './components/Details/Details';
 import Navibar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/rsvp" component={Rsvp} />
         <Route path="/dress" component={DressCode} />
         <Route path="/details" component={Details} />
+        {/* <Route exact path="/map" render={() => {window.location.href="map.html"}} /> */}
       </Switch>
     </Router>
   );

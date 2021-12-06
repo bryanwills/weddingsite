@@ -19,7 +19,7 @@ function Map() {
       if (mapRef.current != null) {
         map = await createMap({
           container: mapRef.current,
-          center: [INITIAL_VIEWPORT.longitude, INITIAL_VIEWPORT.latitude],
+          center: [INITIAL_VIEWPORT.latitude, INITIAL_VIEWPORT.longitude],
           zoom: 11,
         });
       }
