@@ -8,44 +8,42 @@ const DressCode = () => {
     return (
       <div className="" id="dresscode">
           <div className="bg-text-dress">
-          <Card.Body>
             <Card.Title>{t("dress_code.main")} <a href="https://en.wikipedia.org/wiki/D%C3%AEner_en_Blanc">{t("dress_code.din_blanc_link")}</a>{t("dress_code.meets")}<a href="https://en.wikipedia.org/wiki/Guayabera">{t("dress_code.guay_link")}</a></Card.Title>
             <br/>
             <Card raised className="dress-main-card">
               <CardContent>
                 <img
                   src='img/white1.png'
-                  alt="beer"
+                  alt="white1"
                   className="dress-img"
                 />
                 <img
                   src='img/white2.png'
-                  alt="beer"
+                  alt="white2"
                   className="dress-img"
                 />
                 <img
                   src='img/white3.png'
-                  alt="beer"
+                  alt="white3"
                   className="dress-img"
                 />
                 <img
                   src='img/white4.png'
-                  alt="beer"
+                  alt="white4"
                   className="dress-img"
                 />
                 <img
                   src='img/white5.png'
-                  alt="beer"
+                  alt="white5"
                   className="dress-img"
                 />
                 <img
                   src='img/white6.png'
-                  alt="beer"
+                  alt="white6"
                   className="dress-img"
                 />
               </CardContent>
             </Card>
-          </Card.Body>
           </div>
       </div>   
     );

@@ -65,16 +65,30 @@ a {
   height: auto;
   max-height: 300px;
   width: auto;
-  max-width: 400px;
-  padding-top: 2%
+  max-width: 300px;
+  padding-top: 2%;
 }
 
 .dress-img-big {
   height: auto;
   max-height: 500px;
   width: auto;
+  max-width: 300px;
+  padding-top:2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.dress-img-horiz {
+  height: auto;
+  max-height: 600px;
+  width: auto;
   max-width: 400px;
   padding-top:2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
 
 .dress-main-card {
@@ -147,6 +161,18 @@ a {
   width: 95%;
   padding: 20px;
   text-align: center;
+}
+
+.padding{
+  /* border: 1px solid #CDA14A; */
+  padding-top: 3%;
+  padding-bottom:1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.right{
+  right: 0;
 }
 
 .center {
@@ -222,48 +248,6 @@ a {
   /* Just so it's visible */
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .xs {background: red; display: block; }
-  body { background-image: url("/src/img/maria&rob_mob.png"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-  } 
-  .center{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    border: 3px solid #CDA14A;
-    padding: 10px;
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-    z-index: 2;
-    /* width: 95%; */
-  }
-  .bg-text-dress {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */ 
-    color: white;
-    font-weight: bold;
-    border: 3px solid #CDA14A;
-    position: relative;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, 1%);
-    z-index: 2;
-    width: 95%;
-    padding: 20px;
-    text-align: center;
-  }
-}
-
 #wrapper {
   width: 100%;
   overflow-x: auto;
@@ -295,6 +279,129 @@ a {
 
 }
 
+
+/* Extra small devices (phones, 300px and down) */
+@media only screen and (max-width: 300px) {
+  .xs {background: red; display: block; }
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  } 
+  .center{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 2%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+  .bg-text-dress {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */ 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #CDA14A;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+    z-index: 2;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .xs {background: red; display: block; }
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  } 
+  .center{
+    position: relative;
+    top: 6em;
+    left: 50%;
+    transform: translate(-50%, 2%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+  .bg-text-dress {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */ 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #CDA14A;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+    z-index: 2;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+  .xs {background: red; display: block; }
+  body { background-image: url("/src/img/maria&rob_mob.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  } 
+  .center{
+    position: relative;
+    top: 12em;
+    left: 50%;
+    transform: translate(-50%, 2%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+  .bg-text-dress {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */ 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #CDA14A;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+    z-index: 2;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .sm {background: green; display: block; }
@@ -303,7 +410,7 @@ a {
   }
   .center{
     position: relative;
-    top: 50%;
+    top: 15em;
     left: 50%;
     transform: translate(-50%, 50%);
     border: 3px solid #CDA14A;
@@ -338,19 +445,122 @@ a {
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .md { background: blue; display: block; }
   body { background-image: url("/src/img/maria&rob_mob.png"); 
-    background-size: cover;}
+    background-size: cover;
+  }
+  .center{
+    position: absolute;
+    top: 20em;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+  .bg-text-dress {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #CDA14A;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+    z-index: 2;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+  }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .lg {background: orange; display: block;}
   body { background-image: url("/src/img/maria&rob_mob.png"); 
-    background-size: cover;}
+    background-size: cover;
+  }
+  .center{
+    position: absolute;
+    top: 20em;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+  .bg-text-dress {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #CDA14A;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+    z-index: 2;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+  }
 
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .xl {background: pink; display: block;}
+  body { 
+    background-image: url("/src/img/maria&rob.png"); 
+    background-size: cover;
+  }
+  .center{
+    position: absolute;
+    top: 30em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #CDA14A;
+    padding: 10px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* width: 95%; */
+  }
+  .bg-text-dress {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #CDA14A;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+    z-index: 2;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
   .xl {background: pink; display: block;}
   body { 
     background-image: url("/src/img/maria&rob.png"); 
