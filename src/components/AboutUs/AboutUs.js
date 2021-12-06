@@ -32,7 +32,7 @@ const AboutUs = () => {
                   </div>
                   <div class="col-md-auto">
                     <img
-                        src='img/r&m_engage.JPG'
+                        src='img/rm_engage.JPG'
                         alt="r&m"
                         className="dress-img-big"
                       />
@@ -41,21 +41,21 @@ const AboutUs = () => {
                 <div class="row">
                   <div class="col-md-auto">
                     <img
-                        src='img/r&m_date.jpeg'
+                        src='img/rm_date.jpeg'
                         alt="r&m"
                         className="dress-img-big"
                       />
                   </div>
                   <div class="col">
                     <img
-                        src='img/r&m_laugh.jpeg'
+                        src='img/rm_laugh.jpeg'
                         alt="r&m"
                         className="dress-img-big"
                       />
                   </div>
                   <div class="col-md-auto">
                     <img
-                        src='img/r&m_vegas.JPG'
+                        src='img/rm_vegas.JPG'
                         alt="r&m"
                         className="dress-img-big"
                       />
