@@ -22,7 +22,7 @@ body {
   padding-bottom:60px;
   background-color: #0A1D1B;
   background-position: top center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: auto;
 }
 
@@ -74,6 +74,26 @@ a {
   max-height: 500px;
   width: auto;
   max-width: 300px;
+  padding-top:2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.location-blocks{
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  padding-top:2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.location-blocks-larger{
+  height: auto;
+  width: auto;
+  max-width: 500px;
   padding-top:2%;
   display: block;
   margin-left: auto;
@@ -228,6 +248,10 @@ li {
   margin: auto;
 }
 
+.small{
+  font-size: 0.7em;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -291,7 +315,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    height: 100vh;
+    /* height: 100vh; */
   } 
   .center{
     position: relative;
@@ -332,11 +356,11 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    height: 100vh;
+    /* height: 100%; */
   } 
   .center{
     position: relative;
-    top: 8em;
+    /* top: 8em; */
     left: 50%;
     transform: translate(-50%, 2%);
     border: 3px solid #CDA14A;
@@ -365,6 +389,9 @@ li {
     padding: 20px;
     text-align: center;
   }
+  .rsvp{
+    top: 8em;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -374,7 +401,7 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    height: 100vh;
+    /* height: 100%; */
   } 
   .center{
     position: relative;

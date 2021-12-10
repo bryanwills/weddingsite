@@ -5,7 +5,7 @@ const Details = () => {
   const { t } = useTranslation();
   return (
     <div className="" id="details">
-        <div className="center wide">
+        <div className="center wide rsvp">
             {t("details.main")}
             <br/>
         </div>

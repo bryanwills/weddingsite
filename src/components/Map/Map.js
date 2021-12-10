@@ -2,10 +2,9 @@ import { useEffect, useRef } from "react";
 import { createMap, drawPoints } from "maplibre-gl-js-amplify";
 import "maplibre-gl/dist/maplibre-gl.css";
 
-// Santa Marta, Colombia
 const INITIAL_VIEWPORT = {
-  latitude: 11.24079,
-  longitude: -74.19904
+  longitude: -74.234332,
+  latitude: 11.174120
 }
 
 function Map() {
@@ -29,7 +28,7 @@ function Map() {
       const map = await createMap({
         container: mapRef.current,
         center: [INITIAL_VIEWPORT.longitude, INITIAL_VIEWPORT.latitude],
-        zoom: 10,
+        zoom: 5,
       });
       return map;
     }
@@ -55,9 +54,9 @@ function Map() {
                 address: "Santorini Villas, Calle 121A, La Paz, 470006, MAG, Colombia",
               },
               {
-                coordinates: [-74.209572, 11.170727],
+                coordinates: [-74.234332, 11.174120],
                 title: "Pozos Colorados",
-                address: "Pozos Colorados, 005075 Santa Marta, MAG, Colombia",
+                address: "Pozos Colorados, Cl. 74A, Santa Marta, Magdalena, Colombia",
               },
               {
                 coordinates: [-74.227908, 11.202656],
